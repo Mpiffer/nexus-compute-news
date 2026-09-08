@@ -214,7 +214,10 @@ def generate_html(categorized, state):
         cards = ""
         for it in items[:MAX_ITEMS_PER_CATEGORY]:
             title = html.escape(it.get("title", ""))
-            summary = html.escape(it.get("summary", ""))[:280]
+            raw_summary = it.get("summary", "")
+            raw_summary = re.sub(r"<img[^>]*>", "", raw_summary, flags=re.I)
+            raw_summary = re.sub(r"<[^>]+>", "", raw_summary)
+            summary = html.escape(raw_summary)[:280]
             url = html.escape(it.get("url", "#"))
             src = html.escape(it.get("source", ""))
             pub = it.get("published", "")[:16].replace("T", " ")
