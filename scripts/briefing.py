@@ -18,7 +18,7 @@ except ImportError:
 
 # ─── CONFIG ──────────────────────────────────────────────
 BASE = Path(os.environ.get("BRIEFING_BASE", r"C:\Users\MAARA1\squads\nexus-compute-news"))
-LANDING = BASE / "landing"
+LANDING = BASE
 STATE_FILE = BASE / "briefing_state.json"
 MAX_STATE = 100
 MAX_ITEMS_PER_CATEGORY = 20
