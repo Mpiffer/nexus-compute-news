@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Briefing IA & Tech — Nexus Compute</title>
+<style>
+  :root{
+    --bg:#0a0a0f;--panel:#12121a;--line:#1f1f2e;--accent:#7c3aed;
+    --accent2:#06b6d4;--text:#e2e8f0;--dim:#94a3b8;--green:#10b981;--red:#ef4444;
+    --card:#0f0f17;--border:#2a2a3a;--hover:#181825;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;
+    line-height:1.6;min-height:100vh;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -20%,rgba(124,58,237,0.18),transparent),
+      radial-gradient(ellipse 60% 40% at 80% 100%,rgba(6,182,212,0.10),transparent);
+  }
+  header{
+    background:linear-gradient(180deg,rgba(18,18,26,0.95),rgba(18,18,26,0.7));
+    border-bottom:1px solid var(--line);padding:2.5rem 1.5rem 2rem;
+    position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);
+  }
+  .header-inner{
+    max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;gap:1rem;
+    align-items:center;justify-content:space-between;
+  }
+  .brand h1{
+    font-size:clamp(1.2rem,2.5vw,1.8rem);font-weight:800;letter-spacing:-0.02em;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  }
+  .brand small{color:var(--dim);font-size:0.8rem;display:block;margin-top:0.2rem}
+  .stats{
+    display:flex;gap:1.2rem;flex-wrap:wrap;
+  }
+  .stat{
+    background:var(--panel);border:1px solid var(--border);border-radius:0.6rem;
+    padding:0.5rem 0.9rem;text-align:center;min-width:90px;
+  }
+  .stat-value{font-size:1.3rem;font-weight:700;color:var(--accent2)}
+  .stat-label{font-size:0.7rem;color:var(--dim);text-transform:uppercase;letter-spacing:0.05em}
+  .refresh{
+    display:inline-flex;align-items:center;gap:0.4rem;
+    background:var(--accent);color:#fff;border:none;padding:0.5rem 1rem;
+    border-radius:0.5rem;cursor:pointer;font-size:0.85rem;font-weight:600;
+    transition:opacity 0.2s;
+  }
+  .refresh:hover{opacity:0.85}
+  .update-time{font-size:0.75rem;color:var(--dim);margin-top:0.4rem}
+  main{max-width:1200px;margin:0 auto;padding:2rem 1.5rem 4rem}
+  .category{margin-bottom:2.5rem}
+  .category h2{
+    font-size:1.1rem;color:var(--accent2);margin-bottom:1rem;
+    border-bottom:1px solid var(--line);padding-bottom:0.4rem;
+    display:flex;align-items:center;gap:0.5rem;
+  }
+  .count{
+    background:var(--panel);border:1px solid var(--border);color:var(--dim);
+    font-size:0.75rem;padding:0.15rem 0.5rem;border-radius:999px;
+  }
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}
+  .card{
+    background:var(--card);border:1px solid var(--border);border-radius:0.75rem;
+    padding:1.1rem 1.2rem;transition:transform 0.2s,border-color 0.2s;
+  }
+  .card:hover{transform:translateY(-2px);border-color:var(--accent);background:var(--hover)}
+  .card-header{display:flex;justify-content:space-between;margin-bottom:0.5rem;gap:0.5rem;flex-wrap:wrap}
+  .source-badge{
+    font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;
+    background:rgba(124,58,237,0.15);color:var(--accent);padding:0.2rem 0.5rem;border-radius:0.3rem;
+  }
+  .time-badge{font-size:0.7rem;color:var(--dim)}
+  .card h3{font-size:0.95rem;font-weight:600;line-height:1.35;margin-bottom:0.4rem}
+  .card h3 a{color:var(--text);text-decoration:none;transition:color 0.2s}
+  .card h3 a:hover{color:var(--accent2)}
+  .card p{font-size:0.82rem;color:var(--dim);line-height:1.5}
+  .tags{display:flex;flex-wrap:wrap;gap:0.35rem;margin-top:0.7rem}
+  .tag{
+    font-size:0.68rem;color:var(--dim);background:var(--panel);
+    border:1px solid var(--border);padding:0.15rem 0.45rem;border-radius:999px;
+  }
+  footer{
+    text-align:center;padding:2rem 1rem;color:var(--dim);font-size:0.75rem;
+    border-top:1px solid var(--line);
+  }
+  footer a{color:var(--accent);text-decoration:none}
+  @media(max-width:640px){
+    .cards{grid-template-columns:1fr}
+    .header-inner{flex-direction:column;align-items:flex-start}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <h1>📡 Briefing IA & Tech</h1>
+      <small>Nexus Compute — Curadoria automática com deduplicação</small>
+    </div>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-value">60</div>
+        <div class="stat-label">Itens</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">4</div>
+        <div class="stat-label">Categorias</div>
+      </div>
+      <button class="refresh" onclick="location.reload()">🔄 Atualizar</button>
+    </div>
+  </div>
+  <div class="update-time">Última atualização: 08/09/2026 18:52 BRT</div>
+</header>
+<main>
+
+        <section class="category">
+          <h2>🖥️ INFRA <span class="count">4</span></h2>
+          <div class="cards">
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 09 Mar 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/trl-peft" target="_blank" rel="noopener">Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>infra</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 07 Jul 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/skypilot-hf-storage" target="_blank" rel="noopener">Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>infra</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 02 Apr 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/cloudflare-workers-ai" target="_blank" rel="noopener">Bringing serverless GPU inference to Hugging Face users</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>infra</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 01 Sep 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/webgpu-kernels" target="_blank" rel="noopener">Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>infra</span></div>
+            </div></div>
+        </section>
+        <section class="category">
+          <h2>🔬 PESQUISA <span class="count">23</span></h2>
+          <div class="cards">
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 16 Apr 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/train-multimodal-sentence-transformers" target="_blank" rel="noopener">Training and Finetuning Multimodal Embedding &amp;amp; Reranker Models with Sentence Transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Mon, 01 Jul 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/beating-gaia" target="_blank" rel="noopener">Our Transformers Code Agent beats the GAIA benchmark 🏅</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 26 Aug 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/train-multi-vector-encoder" target="_blank" rel="noopener">Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 30 Jun 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/ibm-research/scarfbench" target="_blank" rel="noopener">ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Mon, 11 May 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/amazon/foundation-model-building-blocks" target="_blank" rel="noopener">Building Blocks for Foundation Model Training and Inference on AWS</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 09 Apr 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/multimodal-sentence-transformers" target="_blank" rel="noopener">Multimodal Embedding &amp;amp; Reranker Models with Sentence Transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 21 Jan 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face" target="_blank" rel="noopener">AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 01 Jul 2025</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/train-sparse-encoder" target="_blank" rel="noopener">Training and Finetuning Sparse Embedding Models with Sentence Transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 15 Jan 2025</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/static-embeddings" target="_blank" rel="noopener">Train 400x faster Static Embedding Models with Sentence Transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 04 Dec 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/leaderboard-3c3h-aragen" target="_blank" rel="noopener">Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 25 Jun 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/xlscout-case-study" target="_blank" rel="noopener">XLSCOUT Unveils ParaEmbed 2.0: a Powerful Embedding Model Tailored for Patents and IP with Expert Support from Hugging Face</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 28 May 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/train-sentence-transformers" target="_blank" rel="noopener">Training and Finetuning Embedding Models with Sentence Transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Fri, 19 Apr 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/leaderboard-medicalllm" target="_blank" rel="noopener">The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Mon, 18 Mar 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/train-dgx-cloud" target="_blank" rel="noopener">Easily Train Models with H100 GPUs on NVIDIA DGX Cloud</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 24 Oct 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/inference-endpoints-embeddings" target="_blank" rel="noopener">Deploy Embedding Models with Hugging Face Inference Endpoints</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 27 Apr 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/tf_tpu" target="_blank" rel="noopener">Training a language model with 🤗 Transformers using TensorFlow and TPUs</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 26 Apr 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/databricks-case-study" target="_blank" rel="noopener">Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large Language Models</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 06 Apr 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/snorkel-case-study" target="_blank" rel="noopener">Snorkel AI x Hugging Face: unlock foundation models for enterprises</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 12 Apr 2022</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/habana" target="_blank" rel="noopener">Habana Labs and Hugging Face Partner to Accelerate Transformer Model Training</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 26 Jan 2021</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/tf-serving" target="_blank" rel="noopener">Faster TensorFlow models in Hugging Face Transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>pesquisa</span></div>
+            </div></div>
+        </section>
+        <section class="category">
+          <h2>🚀 PRODUTOS <span class="count">10</span></h2>
+          <div class="cards">
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">DeepMind</span>
+                <span class="time-badge">Mon, 13 Jul 2026</span>
+              </div>
+              <h3><a href="https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/" target="_blank" rel="noopener">Empowering India’s next generation of innovators with ATL Saathi</a></h3>
+              <p>Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">DeepMind</span>
+                <span class="time-badge">Mon, 13 Apr 2026</span>
+              </div>
+              <h3><a href="https://deepmind.google/blog/gemini-robotics-er-1-6/" target="_blank" rel="noopener">Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning</a></h3>
+              <p>Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">DeepMind</span>
+                <span class="time-badge"> hu, 13 Nov 2025</span>
+              </div>
+              <h3><a href="https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/" target="_blank" rel="noopener">SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds</a></h3>
+              <p>Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments.</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">DeepMind</span>
+                <span class="time-badge">Mon, 10 Nov 2025</span>
+              </div>
+              <h3><a href="https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/" target="_blank" rel="noopener">How AI is giving Northern Ireland teachers time back</a></h3>
+              <p>A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week.</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Google AI</span>
+                <span class="time-badge">Wed, 02 Sep 2026</span>
+              </div>
+              <h3><a href="https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/" target="_blank" rel="noopener">Proactive cyber defense for governments and enterprises</a></h3>
+              <p>&amp;lt;img src=&quot;https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp&quot;&amp;gt;The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Google AI</span>
+                <span class="time-badge">Mon, 17 Aug 2026</span>
+              </div>
+              <h3><a href="https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/" target="_blank" rel="noopener">Get closer to the game with Gemini and Pixel</a></h3>
+              <p>&amp;lt;img src=&quot;https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp&quot;&amp;gt;Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  S</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Google AI</span>
+                <span class="time-badge">Mon, 10 Aug 2026</span>
+              </div>
+              <h3><a href="https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/" target="_blank" rel="noopener">Evolve your marketing with new AI tools</a></h3>
+              <p>&amp;lt;img src=&quot;https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp&quot;&amp;gt;Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Google AI</span>
+                <span class="time-badge">Mon, 03 Aug 2026</span>
+              </div>
+              <h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/" target="_blank" rel="noopener">Inside our 353,000-person vibe coding course</a></h3>
+              <p>&amp;lt;img src=&quot;https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp&quot;&amp;gt;Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of </p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Google AI</span>
+                <span class="time-badge"> ue, 28 Jul 2026</span>
+              </div>
+              <h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/" target="_blank" rel="noopener">Gemini API Managed Agents: 3.6 Flash, hooks, and more</a></h3>
+              <p>&amp;lt;img src=&quot;https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp&quot;&amp;gt;We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Google AI</span>
+                <span class="time-badge"> ue, 07 Jul 2026</span>
+              </div>
+              <h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/" target="_blank" rel="noopener">Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more</a></h3>
+              <p>&amp;lt;img src=&quot;https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp&quot;&amp;gt;We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready age</p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>produtos</span></div>
+            </div></div>
+        </section>
+        <section class="category">
+          <h2>⚙️ TECNOLOGIA <span class="count">23</span></h2>
+          <div class="cards">
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 13 Aug 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop" target="_blank" rel="noopener">Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 31 May 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/sagemaker-huggingface-llm" target="_blank" rel="noopener">Introducing the Hugging Face LLM Inference Container for Amazon SageMaker</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 11 Jan 2022</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/gptj-sagemaker" target="_blank" rel="noopener">Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 09 Jun 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/mishig/spaces-agents-md" target="_blank" rel="noopener">How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Mon, 01 Jun 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption" target="_blank" rel="noopener">Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 27 Jan 2026</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl" target="_blank" rel="noopener">Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Mon, 15 Dec 2025</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/ibm-research/cuga-on-hugging-face" target="_blank" rel="noopener">CUGA on Hugging Face: Democratizing Configurable AI Agents</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 17 Sep 2025</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/inference-providers-publicai" target="_blank" rel="noopener">Public AI on Hugging Face Inference Providers 🔥</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 11 Sep 2025</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/faster-transformers" target="_blank" rel="noopener">Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 10 Sep 2025</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/togethercomputer/together-ft" target="_blank" rel="noopener">Fine-tune Any LLM from the Hugging Face Hub with Together AI</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 10 Sep 2025</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/jupyter-agent-2" target="_blank" rel="noopener">Jupyter Agents: training LLMs to reason with notebooks</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 12 Jun 2025</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/inference-providers-featherless" target="_blank" rel="noopener">Featherless AI on Hugging Face Inference Providers 🔥</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 18 Sep 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/1_58_llm_extreme_quantization" target="_blank" rel="noopener">Fine-tuning LLMs to 1.58bit: extreme quantization made easy</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Fri, 07 Jun 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/sagemaker-huggingface-embedding" target="_blank" rel="noopener">Introducing the Hugging Face Embedding Container for Amazon SageMaker</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> hu, 08 Feb 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/tgi-messages-api" target="_blank" rel="noopener">From OpenAI to Open LLMs with Messages API on Hugging Face</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 24 Jan 2024</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/open-source-llms-as-agents" target="_blank" rel="noopener">Open-source LLMs as LangChain Agents</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 23 Aug 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/gptq-integration" target="_blank" rel="noopener">Making LLMs lighter with AutoGPTQ and transformers</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge"> ue, 04 Jul 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/inference-endpoints-llm" target="_blank" rel="noopener">Deploy LLMs with Hugging Face Inference Endpoints</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Sat, 01 Jul 2023</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/writer-case-study" target="_blank" rel="noopener">Leveraging Hugging Face for complex generative AI use cases</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <span class="source-badge">Hugging Face</span>
+                <span class="time-badge">Wed, 14 Dec 2022</span>
+              </div>
+              <h3><a href="https://huggingface.co/blog/habana-gaudi-2-benchmark" target="_blank" rel="noopener">Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB</a></h3>
+              <p></p>
+              <div class="tags"><span class='tag'>news</span> <span class='tag'>tecnologia</span></div>
+            </div></div>
+        </section>
+</main>
+<footer>
+  <p>🤖 Gerado por Hermes Agent · <a href="https://nexus-compute-news.netlify.app" target="_blank">Nexus Compute</a></p>
+  <p>Fontes: arXiv (cs.AI / cs.CL / cs.LG / cs.CR) + Web Search · Deduplicação ativa · Estado: 28 itens</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,785 @@
+{
+  "updated_at": "2026-09-08T18:52:20.224902-03:00",
+  "items": [
+    {
+      "id": "rss-6703811781045596880",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "published": "Thu, 13 Aug 2026 17:16:04 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-6916730833011454719",
+      "title": "Training and Finetuning Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+      "published": "Thu, 16 Apr 2026 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-4951856385204884310",
+      "title": "Our Transformers Code Agent beats the GAIA benchmark 🏅",
+      "summary": "",
+      "url": "https://huggingface.co/blog/beating-gaia",
+      "published": "Mon, 01 Jul 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-4810246265493650165",
+      "title": "Introducing the Hugging Face LLM Inference Container for Amazon SageMaker",
+      "summary": "",
+      "url": "https://huggingface.co/blog/sagemaker-huggingface-llm",
+      "published": "Wed, 31 May 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-4069306545820430854",
+      "title": "Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU",
+      "summary": "",
+      "url": "https://huggingface.co/blog/trl-peft",
+      "published": "Thu, 09 Mar 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "INFRA",
+      "tags": [
+        "news",
+        "infra"
+      ]
+    },
+    {
+      "id": "rss-8689482337582051814",
+      "title": "Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker",
+      "summary": "",
+      "url": "https://huggingface.co/blog/gptj-sagemaker",
+      "published": "Tue, 11 Jan 2022 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-119312500858519721",
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "published": "Wed, 26 Aug 2026 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-1746595700179921695",
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+      "summary": "",
+      "url": "https://huggingface.co/blog/skypilot-hf-storage",
+      "published": "Tue, 07 Jul 2026 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "INFRA",
+      "tags": [
+        "news",
+        "infra"
+      ]
+    },
+    {
+      "id": "rss-4233915051184720742",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "published": "Tue, 30 Jun 2026 18:32:50 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-4776328310002569077",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "summary": "",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "published": "Tue, 09 Jun 2026 10:46:19 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-6870150538863962637",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "published": "Mon, 01 Jun 2026 13:51:18 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-2076682880822947030",
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "published": "Mon, 11 May 2026 23:18:26 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-3754843441636087658",
+      "title": "Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
+      "published": "Thu, 09 Apr 2026 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-6534859502994508665",
+      "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
+      "published": "Tue, 27 Jan 2026 01:53:15 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-203736685725828640",
+      "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
+      "published": "Wed, 21 Jan 2026 06:25:31 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-8165522236535501501",
+      "title": "CUGA on Hugging Face: Democratizing Configurable AI Agents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
+      "published": "Mon, 15 Dec 2025 16:01:04 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-4723904323824923605",
+      "title": "Public AI on Hugging Face Inference Providers 🔥",
+      "summary": "",
+      "url": "https://huggingface.co/blog/inference-providers-publicai",
+      "published": "Wed, 17 Sep 2025 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-2961267934444844022",
+      "title": "Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/faster-transformers",
+      "published": "Thu, 11 Sep 2025 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-7310629292631047668",
+      "title": "Fine-tune Any LLM from the Hugging Face Hub with Together AI",
+      "summary": "",
+      "url": "https://huggingface.co/blog/togethercomputer/together-ft",
+      "published": "Wed, 10 Sep 2025 17:04:36 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-804166799788222540",
+      "title": "Jupyter Agents: training LLMs to reason with notebooks",
+      "summary": "",
+      "url": "https://huggingface.co/blog/jupyter-agent-2",
+      "published": "Wed, 10 Sep 2025 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-113325670706066433",
+      "title": "Training and Finetuning Sparse Embedding Models with Sentence Transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/train-sparse-encoder",
+      "published": "Tue, 01 Jul 2025 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-1013445122868638887",
+      "title": "Featherless AI on Hugging Face Inference Providers 🔥",
+      "summary": "",
+      "url": "https://huggingface.co/blog/inference-providers-featherless",
+      "published": "Thu, 12 Jun 2025 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-5227123923981564239",
+      "title": "Train 400x faster Static Embedding Models with Sentence Transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/static-embeddings",
+      "published": "Wed, 15 Jan 2025 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5176211724295802611",
+      "title": "Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard",
+      "summary": "",
+      "url": "https://huggingface.co/blog/leaderboard-3c3h-aragen",
+      "published": "Wed, 04 Dec 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-2185994125498812049",
+      "title": "Fine-tuning LLMs to 1.58bit: extreme quantization made easy",
+      "summary": "",
+      "url": "https://huggingface.co/blog/1_58_llm_extreme_quantization",
+      "published": "Wed, 18 Sep 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-7533283036596632416",
+      "title": "XLSCOUT Unveils ParaEmbed 2.0: a Powerful Embedding Model Tailored for Patents and IP with Expert Support from Hugging Face",
+      "summary": "",
+      "url": "https://huggingface.co/blog/xlscout-case-study",
+      "published": "Tue, 25 Jun 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-930885249187120654",
+      "title": "Introducing the Hugging Face Embedding Container for Amazon SageMaker",
+      "summary": "",
+      "url": "https://huggingface.co/blog/sagemaker-huggingface-embedding",
+      "published": "Fri, 07 Jun 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-3319420670833864000",
+      "title": "Training and Finetuning Embedding Models with Sentence Transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/train-sentence-transformers",
+      "published": "Tue, 28 May 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-3168488356242223796",
+      "title": "The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare",
+      "summary": "",
+      "url": "https://huggingface.co/blog/leaderboard-medicalllm",
+      "published": "Fri, 19 Apr 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-7388955161740927283",
+      "title": "Bringing serverless GPU inference to Hugging Face users",
+      "summary": "",
+      "url": "https://huggingface.co/blog/cloudflare-workers-ai",
+      "published": "Tue, 02 Apr 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "INFRA",
+      "tags": [
+        "news",
+        "infra"
+      ]
+    },
+    {
+      "id": "rss-9090546161853645681",
+      "title": "Easily Train Models with H100 GPUs on NVIDIA DGX Cloud",
+      "summary": "",
+      "url": "https://huggingface.co/blog/train-dgx-cloud",
+      "published": "Mon, 18 Mar 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-8915120368152275960",
+      "title": "From OpenAI to Open LLMs with Messages API on Hugging Face",
+      "summary": "",
+      "url": "https://huggingface.co/blog/tgi-messages-api",
+      "published": "Thu, 08 Feb 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-4626220978820556652",
+      "title": "Open-source LLMs as LangChain Agents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/open-source-llms-as-agents",
+      "published": "Wed, 24 Jan 2024 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-8017139424337412364",
+      "title": "Deploy Embedding Models with Hugging Face Inference Endpoints",
+      "summary": "",
+      "url": "https://huggingface.co/blog/inference-endpoints-embeddings",
+      "published": "Tue, 24 Oct 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5900840064008425473",
+      "title": "Making LLMs lighter with AutoGPTQ and transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/gptq-integration",
+      "published": "Wed, 23 Aug 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-5028742226208207404",
+      "title": "Deploy LLMs with Hugging Face Inference Endpoints",
+      "summary": "",
+      "url": "https://huggingface.co/blog/inference-endpoints-llm",
+      "published": "Tue, 04 Jul 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-7553399801469110169",
+      "title": "Leveraging Hugging Face for complex generative AI use cases",
+      "summary": "",
+      "url": "https://huggingface.co/blog/writer-case-study",
+      "published": "Sat, 01 Jul 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-8684286921844504050",
+      "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
+      "summary": "",
+      "url": "https://huggingface.co/blog/tf_tpu",
+      "published": "Thu, 27 Apr 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-9035716605099190873",
+      "title": "Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large Language Models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/databricks-case-study",
+      "published": "Wed, 26 Apr 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-916986276527436491",
+      "title": "Snorkel AI x Hugging Face: unlock foundation models for enterprises",
+      "summary": "",
+      "url": "https://huggingface.co/blog/snorkel-case-study",
+      "published": "Thu, 06 Apr 2023 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-15691398423605826",
+      "title": "Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB",
+      "summary": "",
+      "url": "https://huggingface.co/blog/habana-gaudi-2-benchmark",
+      "published": "Wed, 14 Dec 2022 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-207929514955792009",
+      "title": "From GPT2 to Stable Diffusion: Hugging Face arrives to the Elixir community",
+      "summary": "",
+      "url": "https://huggingface.co/blog/elixir-bumblebee",
+      "published": "Fri, 09 Dec 2022 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-7645857052215871904",
+      "title": "Pre-Train BERT with Hugging Face Transformers and Habana Gaudi",
+      "summary": "",
+      "url": "https://huggingface.co/blog/pretraining-bert",
+      "published": "Mon, 22 Aug 2022 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-5069790843643416065",
+      "title": "Habana Labs and Hugging Face Partner to Accelerate Transformer Model Training",
+      "summary": "",
+      "url": "https://huggingface.co/blog/habana",
+      "published": "Tue, 12 Apr 2022 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-7885079513425498030",
+      "title": "Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia",
+      "summary": "",
+      "url": "https://huggingface.co/blog/bert-inferentia-sagemaker",
+      "published": "Wed, 16 Mar 2022 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-6111099172239372723",
+      "title": "Faster TensorFlow models in Hugging Face Transformers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/tf-serving",
+      "published": "Tue, 26 Jan 2021 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-8991817918237044966",
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "published": "Mon, 13 Jul 2026 12:37:28 +0000",
+      "source": "DeepMind",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-3744568078541594958",
+      "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
+      "summary": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.",
+      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+      "published": "Tue, 12 May 2026 14:40:07 +0000",
+      "source": "DeepMind",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-7072457737103812327",
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "published": "Mon, 13 Apr 2026 15:52:13 +0000",
+      "source": "DeepMind",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-580748872222723991",
+      "title": "SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds",
+      "summary": "Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments.",
+      "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
+      "published": "Thu, 13 Nov 2025 14:52:18 +0000",
+      "source": "DeepMind",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-5725044137485159545",
+      "title": "How AI is giving Northern Ireland teachers time back",
+      "summary": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week.",
+      "url": "https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/",
+      "published": "Mon, 10 Nov 2025 16:50:39 +0000",
+      "source": "DeepMind",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-5338732981587928168",
+      "title": "Gemini 2.5 Flash-Lite is now ready for scaled production use",
+      "summary": "Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model provides high quality in a small size, and includes 2.5 family features like a 1 million-token context window and multimodality.",
+      "url": "https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/",
+      "published": "Sat, 25 Oct 2025 17:34:32 +0000",
+      "source": "DeepMind",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-4546929122430254249",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\"&gt;The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "published": "Wed, 02 Sep 2026 15:40:00 +0000",
+      "source": "Google AI",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-2950331874140185515",
+      "title": "Get closer to the game with Gemini and Pixel",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\"&gt;Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "published": "Mon, 17 Aug 2026 08:00:00 +0000",
+      "source": "Google AI",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-7338117053564122743",
+      "title": "Evolve your marketing with new AI tools",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp\"&gt;Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "published": "Mon, 10 Aug 2026 14:30:00 +0000",
+      "source": "Google AI",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-1655828513310009534",
+      "title": "Inside our 353,000-person vibe coding course",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp\"&gt;Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "published": "Mon, 03 Aug 2026 15:00:00 +0000",
+      "source": "Google AI",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-3676669571903971267",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\"&gt;We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "published": "Tue, 28 Jul 2026 16:00:00 +0000",
+      "source": "Google AI",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-6968470053007216981",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "published": "Tue, 07 Jul 2026 08:54:00 +0000",
+      "source": "Google AI",
+      "category": "PRODUTOS",
+      "tags": [
+        "news",
+        "produtos"
+      ]
+    },
+    {
+      "id": "rss-3161481824502660605",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "published": "Tue, 01 Sep 2026 21:39:07 GMT",
+      "source": "Hugging Face",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5895963739886840049",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "published": "Tue, 01 Sep 2026 00:00:00 GMT",
+      "source": "Hugging Face",
+      "category": "INFRA",
+      "tags": [
+        "news",
+        "infra"
+      ]
+    }
+  ]
+}
