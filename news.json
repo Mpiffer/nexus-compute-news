@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T07:38:39.272679-03:00",
+  "updated_at": "2026-09-09T09:57:51.734322-03:00",
   "items": [
     {
-      "id": "rss-4883789616070644312",
+      "id": "rss-7411349604676635197",
       "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
       "summary": "arXiv:2609.08832v1 Announce Type: new \nAbstract: Large language model (LLM)-powered agents can be accurate on average yet unreliable in production, a discrepancy that has been observed but remains largely unaddressed. When given the same task five times, a ReAct agent on the AppWorld benchmark using GPT-4.1 succeeds in all five runs only 53% of the time, even though its per-run pass rate averages 77%. We call this 24-point shortfall the consistency gap, and we argue that addressing it is a preco",
       "url": "https://arxiv.org/abs/2609.08832",
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": "rss-7595455114228763254",
+      "id": "rss-6947343535452198337",
       "title": "Benchmarking Storage Systems for Machine Learning Workloads Using NIO Bench",
       "summary": "arXiv:2609.05418v1 Announce Type: cross \nAbstract: Machine learning training workloads place unique demands on storage systems, yet most existing benchmarks focus on computational throughput rather than file system I/O behavior. We present a benchmarking framework, Neural I/O Benchmark (NIO Bench), that characterizes storage access patterns across six diverse ML model architectures: Language Transformers, Vision Transformers, Diffusion Models, Spiking Neural Networks, Artificial Neural Networks,",
       "url": "https://arxiv.org/abs/2609.05418",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "id": "rss-4829011868328107202",
+      "id": "rss-2145366628499532273",
       "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
       "summary": "arXiv:2609.08965v1 Announce Type: new \nAbstract: Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysis are performed by separate tools with little interaction. Large Language Model (LLM) agents have shown promise across ADS sub-systems such as percepti",
       "url": "https://arxiv.org/abs/2609.08965",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": "rss-1816876963573832461",
+      "id": "rss-9164891333317332868",
       "title": "CrossModalQA: A Cross-modal and Multi-hop Benchmark for Multimodal Retrieval-augmented Generation",
       "summary": "arXiv:2609.05518v1 Announce Type: cross \nAbstract: Despite the strong capabilities of multimodal large language models (MLLMs), their parametric knowledge remains incomplete and difficult to update, motivating multimodal retrieval-augmented generation (RAG) to ground responses in external text and images. However, existing benchmarks face two major limitations: (i) they typically emphasize single-hop retrieval or reasoning over a small set of provided contexts rather than open-domain evidence di",
       "url": "https://arxiv.org/abs/2609.05518",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "id": "rss-2629313557205920622",
+      "id": "rss-6555969218711949909",
       "title": "Large Language Models Transform Organic Synthesis From Reaction Prediction to Automation",
       "summary": "arXiv:2508.05427v2 Announce Type: replace \nAbstract: Large language models (LLMs) are beginning to reshape how organic-synthesis workflows are represented, queried, planned, and connected to experimental automation. Assessing their contribution is not straightforward because reaction-specific transformers, chemistry-adapted LLMs, tool-using agents, optimizers, and autonomous laboratories are often discussed under the same broad terminology despite operating at different levels of the synthesis w",
       "url": "https://arxiv.org/abs/2508.05427",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "id": "rss-1782787165052949132",
+      "id": "rss-4464004773941330716",
       "title": "Fusing Perceptual Vision Experts with Multimodal Large Language Models for Explainable Plant Disease Diagnosis: From Benchmark Imagery to Real-World Robotic Field Validation",
       "summary": "arXiv:2608.24934v2 Announce Type: replace-cross \nAbstract: Accurate field plant disease diagnosis requires reliable fusion of uncertain and conflicting perceptual evidence. We present the Hybrid Hierarchical Multi-Agent Framework (H$^{2}$MAF), combining decision-level fusion of EfficientNet-B3 and ConvNeXt-Tiny with semantic arbitration by open-weight multimodal large language models (MLLMs), Gemma 4 E4B and Qwen3.5 4B, using structured JSON evidence to generate explainable diagnoses, risk level",
       "url": "https://arxiv.org/abs/2608.24934",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "id": "rss-4829011868328107202",
+      "id": "rss-2145366628499532273",
       "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
       "summary": "arXiv:2609.08965v1 Announce Type: cross \nAbstract: Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysis are performed by separate tools with little interaction. Large Language Model (LLM) agents have shown promise across ADS sub-systems such as percep",
       "url": "https://arxiv.org/abs/2609.08965",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "id": "rss-7368721162913691486",
+      "id": "rss-7787219035286609380",
       "title": "Risk-Conditioned Fine-Tuning of Large Language Models",
       "summary": "arXiv:2609.08064v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed in settings where rare but severe harmful generations can have significant consequences. Existing Risk-Averse RLHF addresses this issue by optimizing Conditional Value-at-Risk (CVaR), but it trains policies for fixed risk levels and therefore cannot adjust the desired degree of risk aversion at inference time. In this paper, we propose risk-conditioned RLHF, a framework that trains a single po",
       "url": "https://arxiv.org/abs/2609.08064",
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "id": "rss-241009153114840128",
+      "id": "rss-8003140005320631034",
       "title": "MVFA: A Multi-View Text-Guided Multimodal Fusion LLM Adapter for Sentiment Analysis and Emotion Recognition",
       "summary": "arXiv:2609.06188v1 Announce Type: new \nAbstract: Multimodal sentiment analysis and emotion recognition in conversations demand effective modeling of heterogeneous interactions across textual, acoustic, and visual modalities. Although large language models (LLMs) offer powerful language understanding, adapting them to multimodal affective computing remains challenging: full-model fine-tuning is computationally prohibitive, while many existing lightweight adapters fail to preserve rich textual cue",
       "url": "https://arxiv.org/abs/2609.06188",
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "id": "rss-4830957564324691967",
+      "id": "rss-168273902997014568",
       "title": "FinCUABuild: Can Agents Build Reliable Benchmarks for Dynamic Financial Computer Use?",
       "summary": "arXiv:2609.07603v1 Announce Type: new \nAbstract: Financial scenarios are diverse and complex, spanning varying data conditions, tool configurations, and workflows. Yet existing CUA, Computer-Using Agent, evaluation tasks remain largely manually constructed, limiting scalable coverage of real-world financial scenarios. Then, can agents autonomously construct diverse CUA evaluation tasks for financial scenarios? Evaluating this capability poses three key challenges: scenario coverage of constructi",
       "url": "https://arxiv.org/abs/2609.07603",
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "id": "rss-7121125972577544226",
+      "id": "rss-1716747307547042396",
       "title": "API Benchmark Scores Do Not Reliably Transfer to Chatbot Interfaces",
       "summary": "arXiv:2609.08861v1 Announce Type: new \nAbstract: Benchmark scores are a central currency in model releases: they inform purchasing decisions, shape public trust, and influence policy. Yet, a key assumption underlying benchmark scores is that the model performance measured through APIs faithfully reflects the behavior of deployed systems.\n  We challenge this assumption by auditing ChatGPT, Claude, and Gemini across seven systems and nine benchmarks spanning general capability, social bias, and sy",
       "url": "https://arxiv.org/abs/2609.08861",
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "rss-3810607737051032969",
+      "id": "rss-3243298722582151442",
       "title": "TC-Next: Zero-Shot Multimodal Cyclone Forecasting",
       "summary": "arXiv:2609.02085v1 Announce Type: cross \nAbstract: We present TropicalCycloneNext (TC-Next), a multimodal deep learning model that forecasts tropical cyclone track and intensity at $6$-$24$ h leads by leveraging a foundation model's forecast fields of atmospheric kinematic and thermodynamic fields and GridSat infrared satellite imagery. Trained only on GraphCast forecasts over the Western Pacific (WP), yet reliant only on generic atmospheric variables, TC-Next on GraphCast lowers track error by ",
       "url": "https://arxiv.org/abs/2609.02085",
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": "rss-5193325132223058695",
+      "id": "rss-7709313236508512320",
       "title": "Memory in Deep Time-Series Models",
       "summary": "arXiv:2609.06006v1 Announce Type: cross \nAbstract: Deep learning for time series has progressed through successive architectural paradigms, from recurrent networks and transformers to structured state-space models, retrieval-augmented predictors, foundation models, and tool-using agents. These developments are typically studied in isolation, organized by architecture or modeling era. We argue that they can instead be viewed through a common question of \\emph{how does a time-series model retain a",
       "url": "https://arxiv.org/abs/2609.06006",
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "id": "rss-1355305879764741176",
+      "id": "rss-5343112210215591450",
       "title": "All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs",
       "summary": "arXiv:2609.06161v1 Announce Type: cross \nAbstract: Large language models (LLMs) have achieved remarkable progress, yet their massive storage and memory-bandwidth demands still hinder efficient deployment. Weight binarization is a promising solution, but existing binarization-based post-training quantization (PTQ) methods usually far exceed the nominal 1-bit storage target due to hidden overhead. To address this gap, we propose All for 1-Bit (AF1), a genuine 1-bit PTQ framework for LLMs. AF1 comp",
       "url": "https://arxiv.org/abs/2609.06161",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "id": "rss-2427329753221349182",
+      "id": "rss-6354121160262753894",
       "title": "SWE-Test: Benchmarking LLM Vulnerability Discovery via Input Prediction",
       "summary": "arXiv:2609.06229v1 Announce Type: cross \nAbstract: Vulnerability discovery is becoming an important ability of large language model (LLM) agents: agents that silently miss real defects leave critical software exposed. Rigorously measuring this ability is therefore urgent, but existing benchmarks are gameable through data contamination, score recall against an unknowable vulnerability set, often rely on synthetic bugs, and report a single end-to-end verdict that cannot localize where an agent fai",
       "url": "https://arxiv.org/abs/2609.06229",
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "id": "rss-942463236197078454",
+      "id": "rss-1891573706373772443",
       "title": "VDiff-Bench: A Challenging Benchmark for Fine-Grained Image Difference Identification",
       "summary": "arXiv:2609.06245v1 Announce Type: cross \nAbstract: Multimodal Large Language Models (MLLMs) perform strongly on general visual understanding tasks such as visual question answering, yet they often struggle with a basic comparative skill: identifying what has changed between two similar images. We introduce VDiff-Bench, a challenging multiple-choice benchmark for fine-grained Image Difference Identification. VDiff-Bench contains 1,756 four-way questions over image pairs and covers 10 change categ",
       "url": "https://arxiv.org/abs/2609.06245",
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "id": "rss-7254649177451489948",
+      "id": "rss-6101910033967409241",
       "title": "Steering Geometry: Validating Human Value Geometry in LLM Steering Space",
       "summary": "arXiv:2609.06289v1 Announce Type: cross \nAbstract: As large language models (LLMs) are increasingly deployed in alignment-sensitive contexts, activation steering has emerged as a lightweight, inference-time alternative to fine-tuning methods (e.g., RLHF, DPO) for behavioral control. However, existing work typically validates steering on isolated behaviors, leaving it unclear whether steering vectors encode coherent semantic structure or merely exploit behavior-specific shortcuts. We investigate ",
       "url": "https://arxiv.org/abs/2609.06289",
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": "rss-3708937741305835441",
+      "id": "rss-6922953585179359218",
       "title": "ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics",
       "summary": "arXiv:2609.06663v1 Announce Type: cross \nAbstract: Although multimodal Large Language Models (MLLMs) excel in diverse tasks, their scalability remains limited by the memory and computational overhead of KV cache storage. Recent KV cache eviction approaches incorporate a cosine similarity-based diversity metric with importance metrics to selectively retain critical key-value pairs. However, cosine similarity involves normalization that discards magnitude information, and it often yields uniformly",
       "url": "https://arxiv.org/abs/2609.06663",
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": "rss-6213140667263226375",
+      "id": "rss-1783292756926341644",
       "title": "The Geometry of Refusal: Why Post-Hoc Safety Is Fragile and Pretraining-Time Safety Persists",
       "summary": "arXiv:2609.06934v1 Announce Type: cross \nAbstract: Post-hoc safety training (RLHF, DPO) is the dominant way to align large language models, yet jailbreaks (Zou et al., 2023b), fine-tuning attacks (Qi et al., 2024), and activation-space probes (Arditi et al., 2024) keep recovering the behaviors it was meant to remove. We give this fragility one geometric explanation and trace it to when, during pretraining, safety can take hold. We measure the safety update $\\Delta = W_{\\text{safe}} - W_{\\text{ba",
       "url": "https://arxiv.org/abs/2609.06934",
@@ -249,7 +249,7 @@
       ]
     },
     {
-      "id": "rss-7630448525630281249",
+      "id": "rss-8009929639733847224",
       "title": "AgentLeak: Cloning Stronger LLM Agent Capabilities onto Weaker Agents Beyond Skill Stealing",
       "summary": "arXiv:2609.07131v1 Announce Type: cross \nAbstract: Large language model (LLM) agents increasingly achieve long-horizon tasks by combining foundation models with explicit skills and implicit procedural knowledge acquired through execution. The resulting task-solving capabilities have become valuable proprietary assets, raising a new security question: can a substantially weaker attacker-controlled agent acquire the capabilities of a stronger proprietary agent through limited black-box interaction",
       "url": "https://arxiv.org/abs/2609.07131",
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "id": "rss-4008808760104675470",
+      "id": "rss-966179631915992977",
       "title": "In-Place Instruction Following in Diffusion Language Models",
       "summary": "arXiv:2609.07160v1 Announce Type: cross \nAbstract: Diffusion Large Language Models (dLLMs) generate text via bidirectional iterative denoising, naturally supporting user-specified constraints anchored at arbitrary output positions, a paradigm known as In-place Prompting (IPP). We formalize this as the In-place Instruction Following (IIF) task and construct IIF-Bench, a hierarchical benchmark spanning literal, style, and discourse-function constraints, paired with a rubric-based local-global eval",
       "url": "https://arxiv.org/abs/2609.07160",
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": "rss-2103963551098271593",
+      "id": "rss-1834577669106621469",
       "title": "BlueprintAgent: Constraint-Triggered Targeted Revisits for Simulation-Ready Generation from Scanned Structural Blueprints",
       "summary": "arXiv:2609.07362v1 Announce Type: cross \nAbstract: Converting in-service reinforced-concrete (RC) building blueprints into simulation-ready models---structured frame representations that support deterministic FEM export and qualified-engineer review---underpins safety assessment and seismic retrofit, but the process remains manual. Direct prompting of a multimodal large language model (MLLM) over a scanned sheet is unreliable: outputs often violate engineering constraints on beam--column support",
       "url": "https://arxiv.org/abs/2609.07362",
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "id": "rss-3846552143084885022",
+      "id": "rss-2992208330207686334",
       "title": "TabBench-Bio: A Living Benchmark for Machine Learning on High-Dimensional Biomedical Tables",
       "summary": "arXiv:2609.07441v1 Announce Type: cross \nAbstract: Biomedical tables often combine thousands of measured variables with only tens or hundreds of labelled samples, a regime that is poorly represented in general-purpose tabular benchmarks. We introduce TabBench-Bio, a living and interactive benchmark of 43 biomedical datasets spanning multiple domains. Under a shared cross-validation protocol, we compare classical estimators, neural networks, and tabular foundation models across 28 feature-by-samp",
       "url": "https://arxiv.org/abs/2609.07441",
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "id": "rss-1106292483377867960",
+      "id": "rss-2302934662790505546",
       "title": "Mapping the Emerging Social Science of Large Language Models",
       "summary": "arXiv:2609.07598v1 Announce Type: cross \nAbstract: Large language models (LLMs) increasingly shape communication, learning, work, creativity, and decision-making, yet social-science research on these developments remains fragmented. We map this emerging field using a curated corpus of 198 papers reviewed in full and a field-scale corpus of 47,719 published papers from five bibliographic databases. Combining sentence embeddings, K-means clustering, within-cluster Latent Dirichlet Allocation (LDA)",
       "url": "https://arxiv.org/abs/2609.07598",
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "id": "rss-1303893395804891287",
+      "id": "rss-7658216224865542919",
       "title": "SAFIRE: Safety-Critical Benchmark for Fine-grained Fire and Smoke Understanding in Multimodal LLMs",
       "summary": "arXiv:2609.07823v1 Announce Type: cross \nAbstract: Multimodal Large Language Models (MLLMs) show strong progress on vision-language tasks, yet their reliability in safety-critical settings remains underexplored. Fire-smoke understanding is central to public safety and disaster response, but most existing benchmarks lack diverse real-world scenarios and context-aware evaluation. We introduce SAFIRE, a large-scale benchmark for fire-smoke understanding in MLLMs, comprising 83K captioned images fro",
       "url": "https://arxiv.org/abs/2609.07823",
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "id": "rss-7755573736102993617",
+      "id": "rss-6704756697691175194",
       "title": "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
       "summary": "arXiv:2609.08404v1 Announce Type: cross \nAbstract: Large Language Models demonstrate remarkable proficiency in static reasoning, yet training them as autonomous agents through Reinforcement Learning (RL) for long-horizon tasks is often hindered by severe reward sparsity. While conventional \\textit{agent-side warming} up via supervised fine-tuning (SFT) can alleviate this, it is frequently limited by data scarcity and constrained exploration. To address this, we propose a paradigm shift to \\texti",
       "url": "https://arxiv.org/abs/2609.08404",
@@ -340,7 +340,7 @@
       ]
     },
     {
-      "id": "rss-4833996443060829697",
+      "id": "rss-1005193584311485724",
       "title": "The Unreliable Progress Bar: Can LLM Agents Reliably Report Task Progress Throughout Execution?",
       "summary": "arXiv:2609.08589v1 Announce Type: cross \nAbstract: Recent large language models can emit task-progress signals that agent frameworks use to decide whether a task should continue or stop, yet whether a model can reliably report its task progress at every stage of a task, and where and how its reports fail, has not been studied systematically. We evaluate this ability on the public benchmark $\\tau^2$-bench and on StageIF, a controlled testbed in which reporting checkpoints are placed across the ta",
       "url": "https://arxiv.org/abs/2609.08589",
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "id": "rss-423202156425224077",
+      "id": "rss-1848790806106583879",
       "title": "DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems",
       "summary": "arXiv:2601.13591v3 Announce Type: replace \nAbstract: Recent LLM-based data agents aim to automate data science tasks ranging from data analysis to deep learning. However, the open-ended nature of real-world data science problems, which often span multiple taxonomies and lack standard answers, poses a significant challenge for evaluation. To address this, we introduce DSAEval, a benchmark comprising 641 real-world data science problems grounded in 285 diverse datasets, covering both structured an",
       "url": "https://arxiv.org/abs/2601.13591",
@@ -366,7 +366,7 @@
       ]
     },
     {
-      "id": "rss-1127198490649624487",
+      "id": "rss-6035221773896541527",
       "title": "NeuroWeaver: An Autonomous Evolutionary Agent for Exploring the Programmatic Space of EEG Analysis Pipelines",
       "summary": "arXiv:2602.13473v4 Announce Type: replace \nAbstract: Although foundation models have achieved remarkable success in general domains, applying them to electroencephalography (EEG) analysis is constrained by substantial data requirements and large parameter counts, which incur prohibitive computational costs and impede deployment in resource-constrained clinical environments. General-purpose automated machine learning frameworks are likewise ill-suited to this domain, since exploration within an u",
       "url": "https://arxiv.org/abs/2602.13473",
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "id": "rss-7205029246613773628",
+      "id": "rss-714059607315897056",
       "title": "Hypergraph Enterprise Agentic Reasoner over Heterogeneous Business Systems",
       "summary": "arXiv:2605.14259v3 Announce Type: replace \nAbstract: Applying Large Language Models (LLMs) to heterogeneous enterprise systems is hindered by hallucinations and failures in multi-hop, n-ary reasoning. Existing paradigms (e.g., GraphRAG, NL2SQL) lack the semantic grounding and auditable execution required for these complex environments. We introduce HEAR, an enterprise agentic reasoner built on a Stratified Hypergraph Ontology. Its base Graph Layer virtualizes provenance-aware data interfaces, wh",
       "url": "https://arxiv.org/abs/2605.14259",
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "id": "rss-6599094438927102109",
+      "id": "rss-6478082086195994671",
       "title": "AgentFairBench: Do LLM Agents Discriminate When They Act?",
       "summary": "arXiv:2606.16723v2 Announce Type: replace \nAbstract: Large language model (LLM) agents increasingly take actions (screening applicants, recommending credit, triaging patients), yet fairness for LLMs is still measured by grading answers. We introduce AgentFairBench, a cheap, reproducible, multi-domain benchmark for demographic disparity in the actions of LLM agents. Grounded in a companion framework, the Bias Conduction Framework (BCF, restated here), it spans three regulator-anchored domains: hi",
       "url": "https://arxiv.org/abs/2606.16723",
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "id": "rss-3011196167150037212",
+      "id": "rss-6422478992753968077",
       "title": "FATS: A Prompt Injection Attack Utilizing Feign Security Agents with Deceptive Few-shots Learning",
       "summary": "arXiv:2410.08776v3 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) face significant security risks despite their advanced capabilities. While techniques like Reinforcement Learning with Human Feedback (RLHF) improve ethical alignment, excessive exposure to security-related training data may cause LLMs to overtrust such information, creating new vulnerabilities. Investigating this issue, we propose a novel attack method termed FATS (Feign Agent Attack with Toxic-shots). By ob",
       "url": "https://arxiv.org/abs/2410.08776",
@@ -418,7 +418,7 @@
       ]
     },
     {
-      "id": "rss-5857630813193639644",
+      "id": "rss-3894853495809986552",
       "title": "An Evolutionary Framework for Automatic Optimization Benchmark Generation via Large Language Models",
       "summary": "arXiv:2601.12723v3 Announce Type: replace-cross \nAbstract: Optimization benchmarks play a fundamental role in assessing algorithm performance; however, existing artificial benchmarks often fail to capture the diversity and irregularity of real-world problem structures, while benchmarks derived from real-world problems are costly and difficult to construct. To address these challenges, we propose an evolutionary automatic benchmark generation framework that leverages a large language model (LLM) ",
       "url": "https://arxiv.org/abs/2601.12723",
@@ -431,7 +431,7 @@
       ]
     },
     {
-      "id": "rss-6364003292677300806",
+      "id": "rss-3762839738015890164",
       "title": "TangramPuzzle: Evaluating Multimodal Large Language Models with Compositional Spatial Reasoning",
       "summary": "arXiv:2601.16520v3 Announce Type: replace-cross \nAbstract: Multimodal Large Language Models (MLLMs) have achieved remarkable progress in visual recognition and semantic understanding, yet precise compositional spatial reasoning under geometric constraints remains underexplored. Existing benchmarks mainly assess coarse spatial relations and rarely support rigorous geometric verification or multiple valid solutions in constructive tasks. To address these limitations, we introduce TangramPuzzle, a ",
       "url": "https://arxiv.org/abs/2601.16520",
@@ -444,7 +444,7 @@
       ]
     },
     {
-      "id": "rss-7079561013365988548",
+      "id": "rss-7661260105411449488",
       "title": "TimeBlind: A Spatio-Temporal Compositionality Benchmark for Video LLMs",
       "summary": "arXiv:2602.00288v4 Announce Type: replace-cross \nAbstract: Fine-grained spatio-temporal understanding is essential for video reasoning and embodied AI. Yet, while Multimodal Large Language Models (MLLMs) master static semantics, their grasp of temporal dynamics remains brittle. We present TimeBlind, a diagnostic benchmark for compositional spatio-temporal understanding. Inspired by cognitive science, TimeBlind categorizes fine-grained temporal understanding into three levels: recognizing atomic ",
       "url": "https://arxiv.org/abs/2602.00288",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "rss-1188258902126187993",
+      "id": "rss-6466063781077721402",
       "title": "ASDA: Automated Skill Distillation and Adaptation for Financial Reasoning",
       "summary": "arXiv:2603.16112v2 Announce Type: replace-cross \nAbstract: Adapting large language models (LLMs) to specialized financial reasoning typically requires expensive fine-tuning that produces model-locked expertise. Training-free alternatives have emerged, yet our experiments show that leading methods (GEPA and ACE) achieve only marginal gains on the FAMMA financial reasoning benchmark, exposing the limits of unstructured text optimization for complex, multi-step domain reasoning. We introduce Automa",
       "url": "https://arxiv.org/abs/2603.16112",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "rss-5870265037385635449",
+      "id": "rss-1544744568732560652",
       "title": "PocketAgents: A Manifest-Driven Library of Autonomous Defense Agents",
       "summary": "arXiv:2605.21694v2 Announce Type: replace-cross \nAbstract: Connecting large language models (LLMs) to defensive enforcement requires more than asking a model whether an attack is happening. A defender must decide which model outputs may change the system state, which outputs must be rejected, and how failures should be recorded. We present PocketAgents, a manifest-driven library of autonomous defense agents. Each agent is installed as three data files: a manifest, a prompt, and a runtime context",
       "url": "https://arxiv.org/abs/2605.21694",
@@ -483,7 +483,7 @@
       ]
     },
     {
-      "id": "rss-7576891709575933232",
+      "id": "rss-1980777941513085236",
       "title": "Discovering Latent Groups for Robust Classification",
       "summary": "arXiv:2606.23609v2 Announce Type: replace-cross \nAbstract: Machine learning models exploit spurious correlations, achieving high average accuracy but failing disproportionately on underrepresented subgroups. Existing methods address this by adjusting network parameters, guided either by subgroup annotations or inferred pseudo-group labels. Yet at inference, these methods produce only a class prediction, with no insight into a sample's latent subgroup. We propose neural classification trees (NCT)",
       "url": "https://arxiv.org/abs/2606.23609",
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": "rss-6923372124674130729",
+      "id": "rss-2009117466121089628",
       "title": "SurveyAgent-HKA: A multi-agent framework for scientific survey generation with LLMs and human knowledge augmentation",
       "summary": "arXiv:2609.05938v1 Announce Type: new \nAbstract: Automatic scientific survey generation has become an important task in scientific document processing. The common approach of retrieving literature from a single source (e.g., arXiv) and generating surveys through a one-pass large language model (LLM) call often leads to limited reference coverage and, more importantly, fails to replicate the expert-driven revision process that is crucial for writing high-quality surveys. In this paper, we introdu",
       "url": "https://arxiv.org/abs/2609.05938",
@@ -509,7 +509,7 @@
       ]
     },
     {
-      "id": "rss-7254649177451489948",
+      "id": "rss-6101910033967409241",
       "title": "Steering Geometry: Validating Human Value Geometry in LLM Steering Space",
       "summary": "arXiv:2609.06289v1 Announce Type: new \nAbstract: As large language models (LLMs) are increasingly deployed in alignment-sensitive contexts, activation steering has emerged as a lightweight, inference-time alternative to fine-tuning methods (e.g., RLHF, DPO) for behavioral control. However, existing work typically validates steering on isolated behaviors, leaving it unclear whether steering vectors encode coherent semantic structure or merely exploit behavior-specific shortcuts. We investigate wh",
       "url": "https://arxiv.org/abs/2609.06289",
@@ -522,7 +522,7 @@
       ]
     },
     {
-      "id": "rss-3708937741305835441",
+      "id": "rss-6922953585179359218",
       "title": "ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics",
       "summary": "arXiv:2609.06663v1 Announce Type: new \nAbstract: Although multimodal Large Language Models (MLLMs) excel in diverse tasks, their scalability remains limited by the memory and computational overhead of KV cache storage. Recent KV cache eviction approaches incorporate a cosine similarity-based diversity metric with importance metrics to selectively retain critical key-value pairs. However, cosine similarity involves normalization that discards magnitude information, and it often yields uniformly h",
       "url": "https://arxiv.org/abs/2609.06663",
@@ -535,7 +535,7 @@
       ]
     },
     {
-      "id": "rss-4008808760104675470",
+      "id": "rss-966179631915992977",
       "title": "In-Place Instruction Following in Diffusion Language Models",
       "summary": "arXiv:2609.07160v1 Announce Type: new \nAbstract: Diffusion Large Language Models (dLLMs) generate text via bidirectional iterative denoising, naturally supporting user-specified constraints anchored at arbitrary output positions, a paradigm known as In-place Prompting (IPP). We formalize this as the In-place Instruction Following (IIF) task and construct IIF-Bench, a hierarchical benchmark spanning literal, style, and discourse-function constraints, paired with a rubric-based local-global evalua",
       "url": "https://arxiv.org/abs/2609.07160",
@@ -548,7 +548,7 @@
       ]
     },
     {
-      "id": "rss-2103963551098271593",
+      "id": "rss-1834577669106621469",
       "title": "BlueprintAgent: Constraint-Triggered Targeted Revisits for Simulation-Ready Generation from Scanned Structural Blueprints",
       "summary": "arXiv:2609.07362v1 Announce Type: new \nAbstract: Converting in-service reinforced-concrete (RC) building blueprints into simulation-ready models---structured frame representations that support deterministic FEM export and qualified-engineer review---underpins safety assessment and seismic retrofit, but the process remains manual. Direct prompting of a multimodal large language model (MLLM) over a scanned sheet is unreliable: outputs often violate engineering constraints on beam--column support, ",
       "url": "https://arxiv.org/abs/2609.07362",
@@ -561,7 +561,7 @@
       ]
     },
     {
-      "id": "rss-942463236197078454",
+      "id": "rss-1891573706373772443",
       "title": "VDiff-Bench: A Challenging Benchmark for Fine-Grained Image Difference Identification",
       "summary": "arXiv:2609.06245v1 Announce Type: cross \nAbstract: Multimodal Large Language Models (MLLMs) perform strongly on general visual understanding tasks such as visual question answering, yet they often struggle with a basic comparative skill: identifying what has changed between two similar images. We introduce VDiff-Bench, a challenging multiple-choice benchmark for fine-grained Image Difference Identification. VDiff-Bench contains 1,756 four-way questions over image pairs and covers 10 change categ",
       "url": "https://arxiv.org/abs/2609.06245",
@@ -574,7 +574,7 @@
       ]
     },
     {
-      "id": "rss-4802398459483364769",
+      "id": "rss-2496675568271612694",
       "title": "A Novel Semantic Manifold Alignment Attack against Embedding-to-Embedding Obfuscation in Privacy-Preserving LLMs",
       "summary": "arXiv:2609.06749v1 Announce Type: cross \nAbstract: With the widespread applications of large language models (LLMs), privacy-preserving inference has become increasingly essential for sensitive queries. To balance privacy and utility, a series of lightweight obfuscation approaches has recently been proposed, where users locally transform plaintext embeddings into the fixed ciphertext ones. While such Embedding-to-Embedding Obfuscation (E2EO) schemes demonstrate considerable resilience against tr",
       "url": "https://arxiv.org/abs/2609.06749",
@@ -587,7 +587,7 @@
       ]
     },
     {
-      "id": "rss-9127130399981597466",
+      "id": "rss-765134222311314815",
       "title": "LatentMD: Benchmarking Markdown Boundary Failures in LLM-Generated Text",
       "summary": "arXiv:2609.06993v1 Announce Type: cross \nAbstract: Large language models (LLMs) increasingly generate Markdown that is consumed by renderers, agents, code extractors, and structured downstream pipelines. Yet existing evaluations often conflate content quality with format adherence, leaving Markdown boundary failures under-measured. We introduce LatentMD, a benchmark and evaluation protocol for diagnosing CommonMark-level fence-boundary failures in LLM-generated Markdown. LatentMD separates conte",
       "url": "https://arxiv.org/abs/2609.06993",
@@ -600,7 +600,7 @@
       ]
     },
     {
-      "id": "rss-1106292483377867960",
+      "id": "rss-2302934662790505546",
       "title": "Mapping the Emerging Social Science of Large Language Models",
       "summary": "arXiv:2609.07598v1 Announce Type: cross \nAbstract: Large language models (LLMs) increasingly shape communication, learning, work, creativity, and decision-making, yet social-science research on these developments remains fragmented. We map this emerging field using a curated corpus of 198 papers reviewed in full and a field-scale corpus of 47,719 published papers from five bibliographic databases. Combining sentence embeddings, K-means clustering, within-cluster Latent Dirichlet Allocation (LDA)",
       "url": "https://arxiv.org/abs/2609.07598",
@@ -613,7 +613,7 @@
       ]
     },
     {
-      "id": "rss-1303893395804891287",
+      "id": "rss-7658216224865542919",
       "title": "SAFIRE: Safety-Critical Benchmark for Fine-grained Fire and Smoke Understanding in Multimodal LLMs",
       "summary": "arXiv:2609.07823v1 Announce Type: cross \nAbstract: Multimodal Large Language Models (MLLMs) show strong progress on vision-language tasks, yet their reliability in safety-critical settings remains underexplored. Fire-smoke understanding is central to public safety and disaster response, but most existing benchmarks lack diverse real-world scenarios and context-aware evaluation. We introduce SAFIRE, a large-scale benchmark for fire-smoke understanding in MLLMs, comprising 83K captioned images fro",
       "url": "https://arxiv.org/abs/2609.07823",
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "id": "rss-7585987134644659004",
+      "id": "rss-5000758055830710624",
       "title": "From Coordinates to Candidate Regions: Temporal Change Localization via Region Selection in Remote Sensing Multimodal LLMs",
       "summary": "arXiv:2609.08391v1 Announce Type: cross \nAbstract: Remote sensing multimodal large language models (RS-MLLMs) have advanced scene understanding and visual question answering over satellite imagery, yet localizing specific objects or changed regions remains challenging. Existing approaches rely on generating bounding box coordinates as token sequences, which is fragile for the small, densely packed objects common in remote sensing and increasingly error-prone when multiple targets must be localiz",
       "url": "https://arxiv.org/abs/2609.08391",
@@ -639,7 +639,7 @@
       ]
     },
     {
-      "id": "rss-7755573736102993617",
+      "id": "rss-6704756697691175194",
       "title": "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
       "summary": "arXiv:2609.08404v1 Announce Type: cross \nAbstract: Large Language Models demonstrate remarkable proficiency in static reasoning, yet training them as autonomous agents through Reinforcement Learning (RL) for long-horizon tasks is often hindered by severe reward sparsity. While conventional \\textit{agent-side warming} up via supervised fine-tuning (SFT) can alleviate this, it is frequently limited by data scarcity and constrained exploration. To address this, we propose a paradigm shift to \\texti",
       "url": "https://arxiv.org/abs/2609.08404",
@@ -652,7 +652,7 @@
       ]
     },
     {
-      "id": "rss-4833996443060829697",
+      "id": "rss-1005193584311485724",
       "title": "The Unreliable Progress Bar: Can LLM Agents Reliably Report Task Progress Throughout Execution?",
       "summary": "arXiv:2609.08589v1 Announce Type: cross \nAbstract: Recent large language models can emit task-progress signals that agent frameworks use to decide whether a task should continue or stop, yet whether a model can reliably report its task progress at every stage of a task, and where and how its reports fail, has not been studied systematically. We evaluate this ability on the public benchmark $\\tau^2$-bench and on StageIF, a controlled testbed in which reporting checkpoints are placed across the ta",
       "url": "https://arxiv.org/abs/2609.08589",
@@ -665,7 +665,7 @@
       ]
     },
     {
-      "id": "rss-3666497670176212425",
+      "id": "rss-3676673213402617113",
       "title": "DocHop-QA: Towards Multi-Hop Reasoning over Multimodal Document Collections",
       "summary": "arXiv:2508.15851v3 Announce Type: replace \nAbstract: Despite rapid progress in large language models (LLMs), current QA benchmarks still overlook the core challenge of real-world scientific information seeking: synthesizing multimodal evidence scattered across multiple documents and structural formats. Existing QAs remain narrow in scope, relying on unimodal text and short-span reasoning that fail to capture the complexity of real information-seeking. We introduce DocHop-QA, a benchmark of 11,37",
       "url": "https://arxiv.org/abs/2508.15851",
@@ -678,7 +678,7 @@
       ]
     },
     {
-      "id": "rss-1188258902126187993",
+      "id": "rss-6466063781077721402",
       "title": "ASDA: Automated Skill Distillation and Adaptation for Financial Reasoning",
       "summary": "arXiv:2603.16112v2 Announce Type: replace \nAbstract: Adapting large language models (LLMs) to specialized financial reasoning typically requires expensive fine-tuning that produces model-locked expertise. Training-free alternatives have emerged, yet our experiments show that leading methods (GEPA and ACE) achieve only marginal gains on the FAMMA financial reasoning benchmark, exposing the limits of unstructured text optimization for complex, multi-step domain reasoning. We introduce Automated Sk",
       "url": "https://arxiv.org/abs/2603.16112",
@@ -691,7 +691,7 @@
       ]
     },
     {
-      "id": "rss-382263049567320796",
+      "id": "rss-4592863665558938959",
       "title": "Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents",
       "summary": "arXiv:2603.26233v3 Announce Type: replace \nAbstract: As Large Language Model (LLM) agents are increasingly deployed in open-ended domains like software engineering, they frequently encounter underspecified instructions that lack crucial context. While human developers naturally resolve underspecification by asking clarifying questions, current agents are largely optimized for autonomous execution. In this work, we systematically evaluate the clarification-seeking abilities of LLM agents on an un",
       "url": "https://arxiv.org/abs/2603.26233",
@@ -704,7 +704,7 @@
       ]
     },
     {
-      "id": "rss-7458744713519790597",
+      "id": "rss-7225672520101880094",
       "title": "Every Token Counts: Exact Likert-Scale Distributions for Measuring LLM Attitudes and Biases",
       "summary": "arXiv:2608.10503v3 Announce Type: replace \nAbstract: As Large Language Models (LLMs) are increasingly deployed as autonomous agents, accurately evaluating their latent values and biases is critical. The NLP community typically evaluates models using large, unstructured benchmarks. While effective for general capabilities, these datasets fundamentally conflate causal mechanisms: even when an aggregate bias is detected, unstructured evaluations cannot disentangle whether it stems from baseline tra",
       "url": "https://arxiv.org/abs/2608.10503",
@@ -717,7 +717,7 @@
       ]
     },
     {
-      "id": "rss-423202156425224077",
+      "id": "rss-1848790806106583879",
       "title": "DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems",
       "summary": "arXiv:2601.13591v3 Announce Type: replace-cross \nAbstract: Recent LLM-based data agents aim to automate data science tasks ranging from data analysis to deep learning. However, the open-ended nature of real-world data science problems, which often span multiple taxonomies and lack standard answers, poses a significant challenge for evaluation. To address this, we introduce DSAEval, a benchmark comprising 641 real-world data science problems grounded in 285 diverse datasets, covering both structu",
       "url": "https://arxiv.org/abs/2601.13591",
@@ -730,7 +730,7 @@
       ]
     },
     {
-      "id": "rss-6364003292677300806",
+      "id": "rss-3762839738015890164",
       "title": "TangramPuzzle: Evaluating Multimodal Large Language Models with Compositional Spatial Reasoning",
       "summary": "arXiv:2601.16520v3 Announce Type: replace-cross \nAbstract: Multimodal Large Language Models (MLLMs) have achieved remarkable progress in visual recognition and semantic understanding, yet precise compositional spatial reasoning under geometric constraints remains underexplored. Existing benchmarks mainly assess coarse spatial relations and rarely support rigorous geometric verification or multiple valid solutions in constructive tasks. To address these limitations, we introduce TangramPuzzle, a ",
       "url": "https://arxiv.org/abs/2601.16520",
@@ -743,7 +743,7 @@
       ]
     },
     {
-      "id": "rss-7205029246613773628",
+      "id": "rss-714059607315897056",
       "title": "Hypergraph Enterprise Agentic Reasoner over Heterogeneous Business Systems",
       "summary": "arXiv:2605.14259v3 Announce Type: replace-cross \nAbstract: Applying Large Language Models (LLMs) to heterogeneous enterprise systems is hindered by hallucinations and failures in multi-hop, n-ary reasoning. Existing paradigms (e.g., GraphRAG, NL2SQL) lack the semantic grounding and auditable execution required for these complex environments. We introduce HEAR, an enterprise agentic reasoner built on a Stratified Hypergraph Ontology. Its base Graph Layer virtualizes provenance-aware data interfac",
       "url": "https://arxiv.org/abs/2605.14259",
@@ -756,7 +756,7 @@
       ]
     },
     {
-      "id": "rss-5193325132223058695",
+      "id": "rss-7709313236508512320",
       "title": "Memory in Deep Time-Series Models",
       "summary": "arXiv:2609.06006v1 Announce Type: new \nAbstract: Deep learning for time series has progressed through successive architectural paradigms, from recurrent networks and transformers to structured state-space models, retrieval-augmented predictors, foundation models, and tool-using agents. These developments are typically studied in isolation, organized by architecture or modeling era. We argue that they can instead be viewed through a common question of \\emph{how does a time-series model retain and",
       "url": "https://arxiv.org/abs/2609.06006",
@@ -769,7 +769,7 @@
       ]
     },
     {
-      "id": "rss-1355305879764741176",
+      "id": "rss-5343112210215591450",
       "title": "All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs",
       "summary": "arXiv:2609.06161v1 Announce Type: new \nAbstract: Large language models (LLMs) have achieved remarkable progress, yet their massive storage and memory-bandwidth demands still hinder efficient deployment. Weight binarization is a promising solution, but existing binarization-based post-training quantization (PTQ) methods usually far exceed the nominal 1-bit storage target due to hidden overhead. To address this gap, we propose All for 1-Bit (AF1), a genuine 1-bit PTQ framework for LLMs. AF1 compri",
       "url": "https://arxiv.org/abs/2609.06161",
