@@ -1,36 +1,281 @@
 {
-  "updated_at": "2026-09-13T23:04:58.354074-03:00",
+  "updated_at": "2026-09-14T01:27:20.112901-03:00",
   "items": [
     {
-      "id": "http://arxiv.org/abs/2609.13031v1",
+      "id": "rss-8503337612291859512",
+      "title": "NS-Copilot: An LLM-Driven Agent System for Autonomous Neuroscience Analysis",
+      "summary": "arXiv:2609.01971v2 Announce Type: replace \nAbstract: AI is rapidly advancing neuroscience, yet many laboratories fail to fully unleash its potential due to significant interdisciplinary barriers. While pre-trained neural models for physiological data are progressing quickly, their heterogeneous architectures and modality-specific constraints hinder systematic integration, selection, and evaluation. Despite recent advances in large language model (LLM)-based agent systems for intelligent scientif",
+      "url": "https://arxiv.org/abs/2609.01971",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.CL",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5280880688294541671",
+      "title": "GTA: Graph Theory Agent and Benchmark for Algorithmic Graph Reasoning with LLMs",
+      "summary": "arXiv:2609.12265v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly asked to reason over structured data such as graphs, yet how reliably they can carry out multi-step graph algorithms in language remains unclear. Existing evaluations tend to use simple tasks on small graphs, to score code generation rather than reasoning over the graph itself, or to fix a single input format. We introduce Graph Theory Bench (GT Bench), a benchmark covering 24 classical graph problems ",
+      "url": "https://arxiv.org/abs/2609.12265",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-6465223875796494197",
+      "title": "Information Specialization and Constrained Synthesis in Multi-Agent LLM Forecasting: A Prospective Live-Study of the 2026 FIFA World Cup",
+      "summary": "arXiv:2609.12495v1 Announce Type: new \nAbstract: Large language models are being organized into multi-agent systems with specialized roles, but whether such specialization produces distinct forecasts and whether subsequent synthesis improves utility remains unclear. In this study, we carried out a live, prospective evaluation over the final 56 matches of the information-dense 2026 FIFA World Cup, keeping a frontier foundation model constant while assigning two primary forecasting agents contrast",
+      "url": "https://arxiv.org/abs/2609.12495",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5006216173695031006",
+      "title": "Debiasing as a Measurement Intervention: Calibrated Ties and Resolution Loss in LLM-as-a-Judge Evaluation",
+      "summary": "arXiv:2609.12439v1 Announce Type: cross \nAbstract: LLM-as-a-judge protocols are commonly debiased by instructing judges to ignore presentation cues such as citation formatting, source labels, and evidence-display style. We show that this intervention can suppress bias while damaging the resolution of the measurement instrument. We introduce TraceJudgeBench, a diagnostic benchmark for auditing citation-like artifacts in RAG and agent-workflow evaluation, covering content-equivalent pairs, citatio",
+      "url": "https://arxiv.org/abs/2609.12439",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-3403978073791798805",
+      "title": "Clustering-Based Balanced Sampling and Allocation with Data Parallelism for High-Performance Fine-Tuning",
+      "summary": "arXiv:2609.12584v1 Announce Type: cross \nAbstract: Instruction-tuning datasets for large language models (LLMs) are often large, redundant, and imbalanced, limiting efficient adaptation. Naive large-batch fine-tuning repeatedly includes overrepresented sample groups while weakly covering underrepresented but informative ones, especially under data parallelism (DP) across multiple GPUs. We propose CluSTER, a Cluster-aware balanced Sampling framework for Training Efficient data Reduction in DP ins",
+      "url": "https://arxiv.org/abs/2609.12584",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-216598671713620697",
+      "title": "4D Parallelism Unlocks Exascale Bayesian Neural Networks for High-Fidelity Atmospheric Modeling",
+      "summary": "arXiv:2609.12815v1 Announce Type: cross \nAbstract: We present BEAST, the first-ever Bayesian Swin Transformer for atmospheric forecasting on 0.25$^\\circ$ global resolution able to accurately quantify both aleatoric and epistemic uncertainty. To overcome the associated computational bottlenecks, we devise an orthogonal 4D-parallelization scheme that introduces a unique domain-tensor-parallelism strategy and a novel uncertainty parallel method, enabling us to fully leverage GPU capacity and effici",
+      "url": "https://arxiv.org/abs/2609.12815",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-7681477352550045880",
       "title": "Attention Quantization for Tabular Foundation Models",
-      "summary": "With the recent rise and adoption of tabular foundation models, optimizing their inference performance becomes an emerging field for efficiency research. While the models are architecturally similar to transformer-based large language models (LLMs), the size and serving patterns differ significantly. We show that the focus should be on the attention calculation and less on weight or KV cache quantization, which are more popular in LLMs. We develop a quantization strategy for queries, keys, and v…",
-      "url": "http://arxiv.org/abs/2609.13031v1",
-      "published": "2026-09-11T16:31:29Z",
-      "source": "arXiv",
-      "category": "cs.LG",
+      "summary": "arXiv:2609.13031v1 Announce Type: cross \nAbstract: With the recent rise and adoption of tabular foundation models, optimizing their inference performance becomes an emerging field for efficiency research. While the models are architecturally similar to transformer-based large language models (LLMs), the size and serving patterns differ significantly. We show that the focus should be on the attention calculation and less on weight or KV cache quantization, which are more popular in LLMs. We devel",
+      "url": "https://arxiv.org/abs/2609.13031",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
       "tags": [
-        "research",
-        "paper",
-        "cs"
+        "news",
+        "pesquisa"
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2609.13073v1",
-      "title": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
-      "summary": "Recent breakthroughs in LLM-based systems and their abilities in problem solving and coding have allowed progress in the AI for Science paradigm, potentially replacing human roles in machine learning (ML) research. However, while several frameworks of fully autonomous end-to-end ML research have been proposed, successful implementations of them are often limited to problems with narrow search spaces, like language modeling or biomedical ML benchmarks. In this paper, we explore how autonomous res…",
-      "url": "http://arxiv.org/abs/2609.13073v1",
-      "published": "2026-09-11T17:09:15Z",
-      "source": "arXiv",
-      "category": "cs.AI",
+      "id": "rss-6855623134142331874",
+      "title": "MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models",
+      "summary": "arXiv:2601.21181v2 Announce Type: replace \nAbstract: Multimodal Large Language Models (MLLMs) suffer from cross-modal hallucinations, where one modality inappropriately influences generation about another, leading to fabricated output. This exposes a more fundamental deficiency in modality-interaction control. To address this, we propose Modality-Adaptive Decoding (MAD), a training-free method that adaptively weights modality-specific decoding branches based on task requirements. MAD leverages t",
+      "url": "https://arxiv.org/abs/2601.21181",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
       "tags": [
-        "research",
-        "paper",
-        "cs"
+        "news",
+        "pesquisa"
       ]
     },
     {
-      "id": "rss-3003703479663482403",
+      "id": "rss-3498958563790042580",
+      "title": "OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents",
+      "summary": "arXiv:2606.26350v2 Announce Type: replace \nAbstract: Although large language model agents are increasingly applied to quantitative-finance workflows, their evaluation remains fragmented across isolated tasks, while the financial relevance of benchmark tasks is often overlooked. Yet financial workflows are inherently multi-stage, spanning interdependent tasks such as forecasting, strategy construction, risk management, and trading. Existing platforms typically focus on a single task, and can ther",
+      "url": "https://arxiv.org/abs/2606.26350",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-7877845632691533264",
+      "title": "Dynamic Expert Quantization for Scalable Mixture-of-Experts Inference",
+      "summary": "arXiv:2511.15015v4 Announce Type: replace-cross \nAbstract: Mixture-of-Experts (MoE) has become a practical architecture for scaling LLM capacity while keeping per-token compute modest, but deploying MoE models on a single, memory-limited GPU remains difficult because expert weights dominate the HBM footprint. Existing expert offloading and prefetching systems reduce the resident set, yet they often pay expert-loading costs on the critical path when activation becomes dense. Post-training quantiz",
+      "url": "https://arxiv.org/abs/2511.15015",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-46318617969945461",
+      "title": "PhysCodeBench: Benchmarking Physics-Aware Symbolic Simulation of 3D Scenes via Self-Corrective Multi-Agent Refinement",
+      "summary": "arXiv:2604.23580v2 Announce Type: replace-cross \nAbstract: Translating natural-language descriptions of physical phenomena into executable simulation code requires both programming expertise and physical reasoning. Current large language models (LLMs) lack this combination: they frequently produce code that runs but simulates the wrong physics. We introduce PhysCodeBench, the first benchmark for this task, with 1,200 expert-validated examples spanning four physical domains. Its evaluation suite,",
+      "url": "https://arxiv.org/abs/2604.23580",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-3330382467446479253",
+      "title": "ETHOS: Towards a Modular Ethics Framework for Clinical Multi-Agent Systems",
+      "summary": "arXiv:2608.15424v2 Announce Type: replace-cross \nAbstract: The rapid adoption of large language models has enabled the development of clinical multi-agent systems (MAS) capable of integrating multimodal patient data and supporting increasingly complex clinical decision-making. However, the deployment of these systems in real-world healthcare settings raises critical ethical concerns related to safety, fairness, accountability, transparency, and patient trust. While numerous organizations, includ",
+      "url": "https://arxiv.org/abs/2608.15424",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "MERCADO",
+      "tags": [
+        "news",
+        "mercado"
+      ]
+    },
+    {
+      "id": "rss-7184660145116577224",
+      "title": "Do Multimodal LLMs See Before They Read? Diagnosing Contextual Sycophancy",
+      "summary": "arXiv:2609.00067v2 Announce Type: replace-cross \nAbstract: External text can override conflicting image evidence in multimodal large language models, a failure we call multimodal contextual sycophancy. We introduce a 998-case diagnostic that independently varies visual evidence, commonsense priors, and external text, and probe when this failure arises by moving the information boundary around a context-blind visual witness. On abnormal images paired with Gemini-generated false text, GPT-5.1 scor",
+      "url": "https://arxiv.org/abs/2609.00067",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5011862615564464796",
+      "title": "AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization",
+      "summary": "arXiv:2609.12471v1 Announce Type: new \nAbstract: We introduce AMDKernelVault, an open HIP and Triton kernel corpus and training framework for recent AMD CDNA GPUs. Existing LLM-based kernel agents are largely CUDA/NVIDIA-centric and often depend on repeated frontier-LLM calls for generation, reflection, and optimization. To address this gap, we develop HIPKernelGen and TritonKernelGen, agent-driven pipelines that transform PyTorch references into HIP or Triton kernels, compile and validate candi",
+      "url": "https://arxiv.org/abs/2609.12471",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.CL",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-1537456478899246997",
+      "title": "UrduFactCheck: An Agentic Fact-Checking Framework for Urdu with Evidence Boosting and Benchmarking",
+      "summary": "arXiv:2505.15063v3 Announce Type: replace \nAbstract: The rapid adoption of Large Language Models (LLMs) has raised important concerns about the factual reliability of their outputs, particularly in low-resource languages such as Urdu. Existing automated fact-checking systems are predominantly developed for English, leaving a significant gap for the more than 200 million Urdu speakers worldwide. In this work, we present UrduFactBench and UrduFactQA, two novel hand-annotated benchmarks designed to",
+      "url": "https://arxiv.org/abs/2505.15063",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.CL",
+      "category": "MERCADO",
+      "tags": [
+        "news",
+        "mercado"
+      ]
+    },
+    {
+      "id": "rss-5088169035914619576",
+      "title": "LatentMD: Benchmarking Markdown Boundary Failures in LLM-Generated Text",
+      "summary": "arXiv:2609.06993v2 Announce Type: replace-cross \nAbstract: Large language models (LLMs) increasingly generate Markdown that is consumed by renderers, agents, code extractors, and structured downstream pipelines. Yet existing evaluations often conflate content quality with format adherence, leaving Markdown boundary failures under-measured. We introduce LatentMD, a benchmark and evaluation protocol for diagnosing CommonMark-level fence-boundary failures in LLM-generated Markdown. LatentMD separat",
+      "url": "https://arxiv.org/abs/2609.06993",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.CL",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-222044316806590283",
+      "title": "Performance, Efficiency and Collapse -- Advantages and Challenges in Offline Post-training of Code LLMs",
+      "summary": "arXiv:2609.11956v1 Announce Type: new \nAbstract: Post-training with reinforcement learning (RL) is a critical phase in the development of code-generating large language models (LLMs), as it ensures adherence to instructions and the production of functionally correct code. This process typically requires computationally intensive code sample generation from Transformer-based LLMs and substantial GPU-CPU communication for sequence verification. To address these computational challenges, this work ",
+      "url": "https://arxiv.org/abs/2609.11956",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-4173479787218295795",
+      "title": "Sampling via Decision-Flow: Training-Free Extraction of Improved Latent Reasoning Paths in Large Language Models",
+      "summary": "arXiv:2609.12317v1 Announce Type: new \nAbstract: A central question in LLM reasoning is whether reinforcement learning (RL) instills genuinely new capabilities or merely reshapes how existing knowledge is expressed during inference. Building on the distribution-sharpening hypothesis, which holds that RL reallocates probability mass toward high-reward trajectories already latent in base models, we ask: can we unlock those latent paths without costly RL fine-tuning? We present Decision-Flow Sampli",
+      "url": "https://arxiv.org/abs/2609.12317",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-7858068015311770579",
+      "title": "Benford's Law as a Distributional Prior for Post-Training Quantization of Large Language Models",
+      "summary": "arXiv:2602.00165v2 Announce Type: replace \nAbstract: Post-training quantization (PTQ) is a practical way to reduce the memory footprint of large language models, but low-bit quantization is sensitive to mismatches between the quantization codebook and the empirical weight/activation distributions. We revisit Benford-like leading-digit statistics as a lightweight diagnostic of scale-broad behavior in transformer tensors. Across several model families, we observe a consistent functional dichotomy:",
+      "url": "https://arxiv.org/abs/2602.00165",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5989969868491511542",
+      "title": "Statistical Uncertainty Quantification for Aggregate Performance Metrics in Machine Learning Benchmarks",
+      "summary": "arXiv:2501.04234v2 Announce Type: replace-cross \nAbstract: Modern artificial intelligence is supported by machine learning models (e.g., foundation models) that are pretrained on a massive data corpus and then adapted to solve a variety of downstream tasks. To summarize performance across multiple tasks, evaluation metrics are often aggregated into a summary metric, e.g., average accuracy across 10 question-answering tasks. When aggregating evaluation metrics, it is useful to incorporate uncerta",
+      "url": "https://arxiv.org/abs/2501.04234",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-2662349411370020955",
+      "title": "AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models",
+      "summary": "arXiv:2608.29208v2 Announce Type: replace-cross \nAbstract: Vision-Language-Action (VLA) models, built upon Vision-Language Models (VLMs), have significantly enhanced robotic capabilities by leveraging internet-scale knowledge and multimodal reasoning. However, the intensive computational overhead of VLAs constrains on-device deployment, hindering real-time responses to environmental changes. While various acceleration techniques have been proposed, they often rely on fine-tuning or access to tra",
+      "url": "https://arxiv.org/abs/2608.29208",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-3524503157114096444",
       "title": "Training and Finetuning Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
@@ -43,7 +288,319 @@
       ]
     },
     {
-      "id": "rss-5328269336024077596",
+      "id": "rss-1902005525621284382",
+      "title": "BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents",
+      "summary": "arXiv:2609.12394v1 Announce Type: new \nAbstract: Mobile GUI agents are shifting from multi-module frameworks to native models trained end-to-end, yet industrial deployment faces three persistent gaps. Sandbox training produces a distribution mismatch with production environments; expensive real-device failures remain underutilized; and fixed benchmarks saturate, losing the power to guide iteration. We present BlueLM-GUI, a 35B-A3B mobile GUI agent built as a real-device-centric flywheel that clo",
+      "url": "https://arxiv.org/abs/2609.12394",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-246220398524823538",
+      "title": "SoK: Rethinking Jailbreaking in the Era of Agentic AI: Attacks, Defenses, and Practical Consideration",
+      "summary": "arXiv:2609.12413v1 Announce Type: new \nAbstract: Large language models (LLMs) are rapidly evolving from conversational assistants into agentic AI systems that reason, plan, invoke tools, maintain persistent memory, communicate with other agents, and execute multi-step tasks. At the same time, modern models exhibit substantially stronger native safety alignment than earlier generations on which many jailbreak attacks and defenses were originally studied. This shift raises a fundamental question: ",
+      "url": "https://arxiv.org/abs/2609.12413",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "MERCADO",
+      "tags": [
+        "news",
+        "mercado"
+      ]
+    },
+    {
+      "id": "rss-6320540515182611859",
+      "title": "LifeFuse-Mem: Lifecycle-Aware State Fusion Against Temporary Overwriting for Long-Term Memory",
+      "summary": "arXiv:2609.12436v1 Announce Type: new \nAbstract: Long-running LLM agents require memory mechanisms that maintain coherent internal states across interactions. We study a lifecycle-labeled memory setting in which write episodes provide lifecycle metadata during training, and phase-aware readout is used during evaluation. This setting reflects the need to distinguish information that should remain influential across future interactions from information that should affect only the current context. ",
+      "url": "https://arxiv.org/abs/2609.12436",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-9157518506540586000",
+      "title": "K-Bench: A Benchmark for LLM Unlearning in Agentic Deployments",
+      "summary": "arXiv:2609.12808v1 Announce Type: new \nAbstract: Unlearning benchmarks such as TOFU and MUSE certify forgetting by reading the model's final answer, where a model that refuses to answer already counts as having forgotten. We show that this model-level certificate does not transfer once the model is deployed as an agent. We introduce K-Bench, a benchmark that scores LLM unlearning under agentic deployment. K-Bench inspects all six channels a ReAct agent exposes, including its chain-of-thought (Co",
+      "url": "https://arxiv.org/abs/2609.12808",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-751818731193379054",
+      "title": "Can We Trust LLM Judges: A Study of Capability-Dependent Biases and Multi-Judge Ensemble for Bias Calibration",
+      "summary": "arXiv:2609.12002v1 Announce Type: cross \nAbstract: LLMs are increasingly used as automated judges for model training and evaluation, yet individual judges exhibit systematic biases that undermine reliability. Much of prior work has studied biases in pairwise LLM-as-a-judge settings; in this paper, we focus on absolute scoring tasks, which mirror more realistic use cases. Across four benchmarks and six models (36 judge-examinee pairs), we show that a model's task accuracy strongly predicts its ju",
+      "url": "https://arxiv.org/abs/2609.12002",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-1124252522113244230",
+      "title": "Chopthin-Consensus Power Sampling: A Diversity-Preserving Approach to LLM Decoding",
+      "summary": "arXiv:2609.12243v1 Announce Type: cross \nAbstract: Inference-time power sampling via Sequential Monte Carlo (SMC) can substantially improve large language model (LLM) reasoning without requiring post-training. However, many existing SMC approaches rely on equal-weight resampling, which can aggressively prune low-weight trajectories, discarding potentially correct reasoning paths and degrading the genealogical diversity of the search space. To address this, we introduce Chopthin-Consensus Power S",
+      "url": "https://arxiv.org/abs/2609.12243",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-1357641201608724333",
+      "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
+      "summary": "arXiv:2609.12397v1 Announce Type: cross \nAbstract: Multi-modal image generation, particularly subject-driven customization, has garnered growing attention in recent years. Despite the rapid advancement of generative models, their evaluation remains largely lagging. Existing methods, whether embedding-based or Multi-modal Large Language Model (MLLM)-based, evaluate alignment with each modal condition in isolation, which contradicts the simultaneous condition alignment objective of multi-modal ima",
+      "url": "https://arxiv.org/abs/2609.12397",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-8941625522630107986",
+      "title": "Beyond the Query: Do Retrieval Signals Improve Adaptive Multimodal RAG Routing?",
+      "summary": "arXiv:2609.12437v1 Announce Type: cross \nAbstract: Adaptive RAG often uses retrieval-time signals to decide whether another retrieval, reranking, or multimodal step should run. We ask whether these signals add routing value once the query itself is already known. Across document, audio, and video RAG, we compare matched query-only and query+retrieval routers while holding the optional actions, router family, training procedure, and evaluation fixed. On the held-out final evaluation, adding the t",
+      "url": "https://arxiv.org/abs/2609.12437",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-4528096228228981330",
+      "title": "Bridging the Gap in Ophthalmic AI: MM-Retinal-Reason Dataset and OphthaReason Model toward Dynamic Multimodal Reasoning",
+      "summary": "arXiv:2508.16129v4 Announce Type: replace \nAbstract: Multimodal large language models (MLLMs) have recently demonstrated remarkable reasoning abilities under reinforcement learning (RL) paradigm. However, most existing multimodal medical reasoning models focus on basic reasoning, which refers to shallow inference based on visual feature matching. In contrast, real-world clinical diagnosis extends beyond basic reasoning, demanding complex reasoning that integrates heterogeneous clinical informati",
+      "url": "https://arxiv.org/abs/2508.16129",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5801315088641678049",
+      "title": "CoHyDE: Iterative Co-Training of LLM Rewriter &amp; Dense Encoder for Tool Retrieval",
+      "summary": "arXiv:2605.29271v2 Announce Type: replace \nAbstract: Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can bridge on its own. The two dominant training approaches, contrastive encoder fine-tuning and HyDE-style query expansion with a frozen LLM, address this problem from opposite ends and fail in complementary directions: the fine-tuned",
+      "url": "https://arxiv.org/abs/2605.29271",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "TECNOLOGIA",
+      "tags": [
+        "news",
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "rss-7112291142839419930",
+      "title": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
+      "summary": "arXiv:2608.00794v4 Announce Type: replace \nAbstract: Agentic AI evaluation pipelines produce benchmark scores that justify deployment decisions, safety certifications, and regulatory compliance claims. No formal framework has yet characterized how validity degrades across the stages of these pipelines. We present a three-layer compounding validity model, $V_{total} \\leq V_1 \\times V_2 \\times V_3$, that captures multiplicative degradation across task generation ($V_1$), human-simulator calibratio",
+      "url": "https://arxiv.org/abs/2608.00794",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-2645881930170982890",
+      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+      "summary": "arXiv:2608.27875v2 Announce Type: replace \nAbstract: Quantization has been widely adopted in LLM training and inference to reduce cost and improve efficiency. However, low-bit quantization of the \\emph{attention} module often introduces large errors at very low bit-widths, causing performance degradation. Existing methods mainly rely on smoothing techniques to handle outliers, while we propose a hybrid quantization design to better balance accuracy and efficiency. Specifically, we propose \\textb",
+      "url": "https://arxiv.org/abs/2608.27875",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5249182449808193033",
+      "title": "AsyncFlow: An Asynchronous Streaming RL Framework for Efficient LLM Post-Training",
+      "summary": "arXiv:2507.01663v2 Announce Type: replace-cross \nAbstract: Reinforcement learning (RL) has become a pivotal technology in the post-training phase of large language models (LLMs). Traditional task-collocated RL frameworks suffer from significant scalability bottlenecks, while task-separated RL frameworks face challenges in managing complex dataflows and resolving resource idling. Furthermore, most existing frameworks are tightly coupled with LLM training or inference engines, making them difficul",
+      "url": "https://arxiv.org/abs/2507.01663",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-1171255943628308332",
+      "title": "A Dataset and Benchmarks for Atrial Fibrillation Detection from Electrocardiograms of Intensive Care Unit Patients",
+      "summary": "arXiv:2512.18031v2 Announce Type: replace-cross \nAbstract: Objective: Atrial fibrillation (AF) is the most common cardiac arrhythmia experienced by intensive care unit (ICU) patients and can cause adverse health effects. In this study, we publish a labelled ICU dataset and benchmarks for AF detection. Methods: We compared machine learning models across three data-driven artificial intelligence (AI) approaches: feature-based classifiers, deep learning (DL), and ECG foundation models (FMs). This c",
+      "url": "https://arxiv.org/abs/2512.18031",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-4889002391152143382",
+      "title": "LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization",
+      "summary": "arXiv:2606.10531v3 Announce Type: replace-cross \nAbstract: Quantization-aware training (QAT) is essential for extremely low-bit large language models (LLMs). Current QAT methods are mainly based on scalar quantization (SQ), which enables efficient optimization but suffers from severe performance degradation at 2-bit precision. On the other hand, vector quantization (VQ) provides substantially higher representational capacity, but its discrete codebook lookup prevents end-to-end training. We prop",
+      "url": "https://arxiv.org/abs/2606.10531",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-954490144046974711",
+      "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents",
+      "summary": "arXiv:2606.20474v3 Announce Type: replace-cross \nAbstract: Context-heavy agents place substantial pressure on the key-value (KV) cache: long prefixes are reused across many short turns, while concurrency determines whether the serving system can keep GPUs utilized. We study 4-bit KV-cache compression for this setting, using TurboQuant-style rotation and codebook quantization as a quality anchor and vLLM FP8 KV caching as the deployment anchor. We report three contributions. First, we frame 4-bit",
+      "url": "https://arxiv.org/abs/2606.20474",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
+      "category": "INFRA",
+      "tags": [
+        "news",
+        "infra"
+      ]
+    },
+    {
+      "id": "rss-2052117358237729428",
+      "title": "PACIFIC: Can LLMs Discern the Psychometric Traits Influencing Your Preferences? Personality-Driven Preference Alignment in LLMs",
+      "summary": "arXiv:2602.07181v4 Announce Type: replace \nAbstract: User preferences are increasingly used to personalize Large Language Model (LLM) responses, yet reliably leveraging preference signals remains under-explored. In practice, preferences can be noisy, incomplete, or even misleading, which can degrade answer quality when applied naively. Motivated by the observation that stable personality traits shape everyday preferences, we introduce PACIFIC (Preference Alignment for Choices Inference via Five-",
+      "url": "https://arxiv.org/abs/2602.07181",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.CL",
+      "category": "MERCADO",
+      "tags": [
+        "news",
+        "mercado"
+      ]
+    },
+    {
+      "id": "rss-1818709333957265216",
+      "title": "SAEExplainer: Interpreting SAE Features with Activation-Guided Preference Optimization",
+      "summary": "arXiv:2606.08496v2 Announce Type: replace \nAbstract: Although Sparse Autoencoders (SAEs) have mitigated the opacity of large language models (LLMs) by decomposing dense representations into sparse features, explaining these features still remains a central challenge. Current explanation methods, however, typically operate within an open-loop paradigm, failing to leverage mechanistic feedback for further refinement. In this paper, we propose SAEExplainer, a training framework that utilizes activa",
+      "url": "https://arxiv.org/abs/2606.08496",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.CL",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-6598000841021180645",
+      "title": "FINESSE: An Agent-Based Simulator and Benchmark Dataset for Multimodal Financial Event Sequences",
+      "summary": "arXiv:2609.11993v1 Announce Type: new \nAbstract: Machine learning research in financial services is limited by the scarcity of representative open-source datasets. Existing resources are often narrowly focused on a single modality or task and fail to reflect the structured, multimodal, and dynamic nature inherent to many problems in financial services.\n  In this paper, we introduce FINESSE, a Financial Event Sequence Simulation Environment, an agent-based simulation framework for generating synt",
+      "url": "https://arxiv.org/abs/2609.11993",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-5658436795294979331",
+      "title": "PLSP (Pre-hoc Liminal Space Profiling): OOD Prediction over Detection -- An Anticipatory Approach for Machine Learning Model Reliability",
+      "summary": "arXiv:2609.12225v1 Announce Type: new \nAbstract: Out-of-Distribution (OOD) data poses a significant threat to machine learning models, often leading to model failure during deployment. All existing OOD detection methods are post-hoc, relying on evaluation metrics such as accuracy and AUC-ROC during inference to indirectly assess the model's response to OOD data by measuring deviations. In contrast to existing approaches, the proposed work shifts the paradigm from OOD detection to OOD prediction ",
+      "url": "https://arxiv.org/abs/2609.12225",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-2481724439763016918",
+      "title": "One Simple Trick for Improving the Performance of Energy-Limited Local Inference and Training",
+      "summary": "arXiv:2609.11936v1 Announce Type: cross \nAbstract: Energy supply and heat dissipation are two of the main challenges with modern GPU deployments. While typically discussed in the context of new datacenter constructions, the same constraints also apply to small form-factor consumer devices, such as the DGX spark. In workloads characterized by alternating compute-intensive tasks such as matmuls with memory-bound operations such as norms or cross-entropy, the compute-intensive parts might hit power",
+      "url": "https://arxiv.org/abs/2609.11936",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-791916893710223838",
+      "title": "The Battery Price of edge AI: A study of the Environmental Impact of LLM Inference on Mobile Devices",
+      "summary": "arXiv:2609.11940v1 Announce Type: cross \nAbstract: The rapid diffusion of generative artificial intelligence raises privacy, latency, and performance concerns that motivate a shift toward \"local-first\" AI, where inferences are performed on the user's device instead of on remote cloud servers. This paradigm also places a significant computational load on battery-powered smartphones, potentially shortening battery life and increasing the overall replacement rate of mobile devices. This paper prese",
+      "url": "https://arxiv.org/abs/2609.11940",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "MERCADO",
+      "tags": [
+        "news",
+        "mercado"
+      ]
+    },
+    {
+      "id": "rss-8701066735943372348",
+      "title": "Efficient Vision-Language-Action Management and Serving for Robot Factories",
+      "summary": "arXiv:2609.12075v1 Announce Type: cross \nAbstract: Vision-Language-Action (VLA) models show high robotic manipulation capabilities via a two-stage design: a Vision-Language Model (VLM) stage followed by an Action Diffusion Transformer (ADiT) stage. Since robots must meet strict Service-Level Objectives (SLOs) for safety, VLA inference is inherently latency-critical. Meeting these SLOs requires high-end GPUs, yet weight, cost, and power constraints preclude integrating such GPUs on-robot. Prior w",
+      "url": "https://arxiv.org/abs/2609.12075",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-6491636054210136040",
+      "title": "HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications",
+      "summary": "arXiv:2609.12412v1 Announce Type: cross \nAbstract: Foundation models, including large language models, vision-language models, and time-series foundation models, are increasingly deployed on embedded and edge platforms for CPS and IoT applications, where energy, latency, and memory are as critical as task accuracy. Existing benchmarking tools evaluate model capability in isolation, reporting accuracy assuming sufficient compute, while hardware profiling tools remain platform-specific and mutuall",
+      "url": "https://arxiv.org/abs/2609.12412",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.LG",
+      "category": "PESQUISA",
+      "tags": [
+        "news",
+        "pesquisa"
+      ]
+    },
+    {
+      "id": "rss-8805153651533531938",
       "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-multi-vector-encoder",
@@ -56,7 +613,7 @@
       ]
     },
     {
-      "id": "rss-547772882564777238",
+      "id": "rss-3995633081015788811",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "summary": "",
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
@@ -69,7 +626,7 @@
       ]
     },
     {
-      "id": "rss-1654507039425797961",
+      "id": "rss-8449315410405195961",
       "title": "Building Blocks for Foundation Model Training and Inference on AWS",
       "summary": "",
       "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
@@ -82,7 +639,7 @@
       ]
     },
     {
-      "id": "rss-1661813446641496589",
+      "id": "rss-1099111201743985872",
       "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
       "summary": "",
       "url": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
@@ -95,7 +652,7 @@
       ]
     },
     {
-      "id": "rss-5302344378800132442",
+      "id": "rss-2877206025510740210",
       "title": "Jupyter Agents: training LLMs to reason with notebooks",
       "summary": "",
       "url": "https://huggingface.co/blog/jupyter-agent-2",
@@ -108,7 +665,7 @@
       ]
     },
     {
-      "id": "rss-4321604744458343581",
+      "id": "rss-6607144907430586711",
       "title": "Training and Finetuning Sparse Embedding Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-sparse-encoder",
@@ -121,7 +678,7 @@
       ]
     },
     {
-      "id": "rss-7831529354888784974",
+      "id": "rss-3631866621431160447",
       "title": "Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard",
       "summary": "",
       "url": "https://huggingface.co/blog/leaderboard-3c3h-aragen",
@@ -134,7 +691,7 @@
       ]
     },
     {
-      "id": "rss-9197150887100970496",
+      "id": "rss-7625470362795638020",
       "title": "Our Transformers Code Agent beats the GAIA benchmark 🏅",
       "summary": "",
       "url": "https://huggingface.co/blog/beating-gaia",
@@ -147,7 +704,7 @@
       ]
     },
     {
-      "id": "rss-1193922686876818545",
+      "id": "rss-5202398633156351540",
       "title": "Training and Finetuning Embedding Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-sentence-transformers",
@@ -160,7 +717,7 @@
       ]
     },
     {
-      "id": "rss-488953254155570347",
+      "id": "rss-5224370050788983197",
       "title": "Introducing the Hugging Face LLM Inference Container for Amazon SageMaker",
       "summary": "",
       "url": "https://huggingface.co/blog/sagemaker-huggingface-llm",
@@ -173,7 +730,7 @@
       ]
     },
     {
-      "id": "rss-2542775670004848976",
+      "id": "rss-5602613625049942239",
       "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
       "summary": "",
       "url": "https://huggingface.co/blog/tf_tpu",
@@ -186,7 +743,7 @@
       ]
     },
     {
-      "id": "rss-196842795809189983",
+      "id": "rss-337376561062676115",
       "title": "Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large Language Models",
       "summary": "",
       "url": "https://huggingface.co/blog/databricks-case-study",
@@ -199,7 +756,7 @@
       ]
     },
     {
-      "id": "rss-4816741105781291266",
+      "id": "rss-3303537126429963106",
       "title": "Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU",
       "summary": "",
       "url": "https://huggingface.co/blog/trl-peft",
@@ -212,7 +769,7 @@
       ]
     },
     {
-      "id": "rss-205511003732774426",
+      "id": "rss-9215117537470140873",
       "title": "Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB",
       "summary": "",
       "url": "https://huggingface.co/blog/habana-gaudi-2-benchmark",
@@ -225,7 +782,7 @@
       ]
     },
     {
-      "id": "rss-4302646327687584105",
+      "id": "rss-7098986353060630975",
       "title": "Habana Labs and Hugging Face Partner to Accelerate Transformer Model Training",
       "summary": "",
       "url": "https://huggingface.co/blog/habana",
@@ -238,7 +795,7 @@
       ]
     },
     {
-      "id": "rss-8319426541614158546",
+      "id": "rss-8710174049487666640",
       "title": "Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker",
       "summary": "",
       "url": "https://huggingface.co/blog/gptj-sagemaker",
@@ -251,39 +808,12 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2609.13062v1",
-      "title": "Anchoring Clinical Events in Time: UID-Preserving Multimodal Reconstruction and Source-Grounded Adjudication",
-      "summary": "Clinical timelines support treatment-window analysis and leakage-free modeling, but discharge summaries often obscure chronology and structured EHR tables describe only part of the patient course. We present a UID-preserving framework that links each narrative event occurrence to its source span and retains that identity through text-only estimation, structured-evidence retrieval, timestamped source-row grounding, and joint revision. We also present GAVEL, an LLM judge that compares two UID-alig…",
-      "url": "http://arxiv.org/abs/2609.13062v1",
-      "published": "2026-09-11T17:01:10Z",
-      "source": "arXiv",
-      "category": "cs.AI",
-      "tags": [
-        "research",
-        "paper",
-        "cs"
-      ]
-    },
-    {
-      "id": "rss-9113880646931013729",
-      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-      "summary": "",
-      "url": "https://huggingface.co/blog/skypilot-hf-storage",
-      "published": "Tue, 07 Jul 2026 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "INFRA",
-      "tags": [
-        "news",
-        "infra"
-      ]
-    },
-    {
-      "id": "rss-8424848125823539252",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "summary": "",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "published": "Tue, 30 Jun 2026 18:32:50 GMT",
-      "source": "Hugging Face",
+      "id": "rss-3901667936394146309",
+      "title": "Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning",
+      "summary": "arXiv:2609.12035v1 Announce Type: new \nAbstract: Cardiovascular diagnosis rests on integrating complementary modalities, like ECG, echocardiography, chest radiographs, and clinical variables, each capturing distinct but correlated aspects of cardiac physiology. Yet most medical foundation models remain modality-specific, combining modalities only for finetuning or post-training. This discards the cross-modal evidence clinicians naturally integrate and ignores the structure within each modality. ",
+      "url": "https://arxiv.org/abs/2609.12035",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -291,38 +821,12 @@
       ]
     },
     {
-      "id": "rss-87449031443017489",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "summary": "",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "published": "Tue, 09 Jun 2026 10:46:19 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-1837819654711574027",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "summary": "",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "published": "Mon, 01 Jun 2026 13:51:18 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-8438235230600039624",
-      "title": "Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
-      "summary": "",
-      "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
-      "published": "Thu, 09 Apr 2026 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-9151668568991488911",
+      "title": "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
+      "summary": "arXiv:2609.12105v1 Announce Type: new \nAbstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital, triaging patients, or containing a network intrusion will follow from progress in large language models (LLMs). A language model is trained on a representation of the world that was produced by human description; description is a lossy encoding of the quantitative record, and the loss is irreversi",
+      "url": "https://arxiv.org/abs/2609.12105",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -330,12 +834,12 @@
       ]
     },
     {
-      "id": "rss-2380159963880279203",
-      "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
-      "summary": "",
-      "url": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
-      "published": "Wed, 21 Jan 2026 06:25:31 GMT",
-      "source": "Hugging Face",
+      "id": "rss-4865525937380362648",
+      "title": "WinSyn: An Automated Pipeline for Realistic Enterprise Question-Answering Evaluation",
+      "summary": "arXiv:2609.12171v1 Announce Type: new \nAbstract: Enterprise settings provide a challenging environment for question-answering agents, which often rely on Retrieval-Augmented Generation, Deep Research (DR), and related techniques. Much of this challenge comes from the complexity of enterprise data: information is often spread across evolving and potentially conflict- ing emails, chat messages, documents, and other artifacts. Existing benchmarks typically have limited real-world complexity, short-",
+      "url": "https://arxiv.org/abs/2609.12171",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -343,90 +847,12 @@
       ]
     },
     {
-      "id": "rss-7775796082303940078",
-      "title": "CUGA on Hugging Face: Democratizing Configurable AI Agents",
-      "summary": "",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
-      "published": "Mon, 15 Dec 2025 16:01:04 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-8088376630584759761",
-      "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
-      "summary": "",
-      "url": "https://huggingface.co/blog/smol2operator",
-      "published": "Tue, 23 Sep 2025 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-7599651632389456693",
-      "title": "Public AI on Hugging Face Inference Providers 🔥",
-      "summary": "",
-      "url": "https://huggingface.co/blog/inference-providers-publicai",
-      "published": "Wed, 17 Sep 2025 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-3701795824592098930",
-      "title": "Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers",
-      "summary": "",
-      "url": "https://huggingface.co/blog/faster-transformers",
-      "published": "Thu, 11 Sep 2025 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-3494103402599070442",
-      "title": "Fine-tune Any LLM from the Hugging Face Hub with Together AI",
-      "summary": "",
-      "url": "https://huggingface.co/blog/togethercomputer/together-ft",
-      "published": "Wed, 10 Sep 2025 17:04:36 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-3156175111337055939",
-      "title": "Accelerate ND-Parallel: A guide to Efficient Multi-GPU Training",
-      "summary": "",
-      "url": "https://huggingface.co/blog/accelerate-nd-parallel",
-      "published": "Fri, 08 Aug 2025 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "INFRA",
-      "tags": [
-        "news",
-        "infra"
-      ]
-    },
-    {
-      "id": "rss-8273429239232013532",
-      "title": "Announcing  NeurIPS 2025 E2LM Competition: Early Training Evaluation of Language Models",
-      "summary": "",
-      "url": "https://huggingface.co/blog/tiiuae/e2lm-competition",
-      "published": "Fri, 04 Jul 2025 12:25:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-7747616302201382053",
+      "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+      "summary": "arXiv:2609.12320v1 Announce Type: new \nAbstract: Traditional large language models (LLMs) are scoped to individual user sessions, limiting their knowledge to a single conversation and preventing them from learning user preferences that evolve over time. Existing agentic memory systems address this limitation but generally operate at the individual-user level, restricting the public knowledge that could be shared across users to improve downstream responses. We introduce AIM (Agentic Interoperabl",
+      "url": "https://arxiv.org/abs/2609.12320",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -434,25 +860,12 @@
       ]
     },
     {
-      "id": "rss-4683201403670926519",
-      "title": "Featherless AI on Hugging Face Inference Providers 🔥",
-      "summary": "",
-      "url": "https://huggingface.co/blog/inference-providers-featherless",
-      "published": "Thu, 12 Jun 2025 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-6268911483609878055",
-      "title": "Training and Finetuning Reranker Models with Sentence Transformers",
-      "summary": "",
-      "url": "https://huggingface.co/blog/train-reranker",
-      "published": "Wed, 26 Mar 2025 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-8173401495183851901",
+      "title": "VRL-Bench: Benchmarking agents on computer control tasks under finite trial budgets",
+      "summary": "arXiv:2609.12404v1 Announce Type: new \nAbstract: Learning from trial and error is a promising way to improve language agents on complex tasks such as computer control. Reflexion introduced verbal reinforcement learning, which turns failed trials into text that guides later attempts without updating model parameters. We introduce VRL-Bench, a harness for fair evaluation of trial-and-error learning under finite trial budgets. Across three models on MiniWoB and WebShop, we evaluate updates from sev",
+      "url": "https://arxiv.org/abs/2609.12404",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -460,12 +873,12 @@
       ]
     },
     {
-      "id": "rss-6867914194763956887",
-      "title": "Hugging Face and FriendliAI partner to supercharge model deployment on the Hub",
-      "summary": "",
-      "url": "https://huggingface.co/blog/friendliai-partnership",
-      "published": "Wed, 22 Jan 2025 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-863919168952214968",
+      "title": "Do LLMs Trust the Accuser or the Accusation? Measuring Belief Shifts in Werewolf",
+      "summary": "arXiv:2609.12446v1 Announce Type: new \nAbstract: Social-deduction games such as Werewolf are increasingly used to evaluate LLM agents, but existing evaluations often rely on final game outcomes. We propose a belief-shift evaluation benchmark in Werewolf for analyzing communication skills through belief updating. Using LLM-played games, we annotate suspicion and accusation messages and measure how an observing village-side model's beliefs change after each message. We evaluate 40 open-weight LLM ",
+      "url": "https://arxiv.org/abs/2609.12446",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -473,12 +886,12 @@
       ]
     },
     {
-      "id": "rss-3585240159304316763",
-      "title": "Train 400x faster Static Embedding Models with Sentence Transformers",
-      "summary": "",
-      "url": "https://huggingface.co/blog/static-embeddings",
-      "published": "Wed, 15 Jan 2025 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-7635981481682571683",
+      "title": "Beyond Vector Similarity: Hierarchical Context-Aware Graph RAG vs Standard RAG in Enterprise Code Migration",
+      "summary": "arXiv:2609.12464v1 Announce Type: new \nAbstract: As enterprises modernize legacy monolithic systems to microservices, Large Language Models (LLMs) are heavily utilized for automated code translation. However, traditional vector-based Retrieval-Augmented Generation (Standard RAG) struggles to capture topological relationships. It fetches isolated chunks that sever inheritance chains, leading to high compilation failure rates. This paper introduces a Hierarchical Context-Resident Graph (HCRG) meth",
+      "url": "https://arxiv.org/abs/2609.12464",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -486,51 +899,12 @@
       ]
     },
     {
-      "id": "rss-5180893764045775606",
-      "title": "Fine-tuning LLMs to 1.58bit: extreme quantization made easy",
-      "summary": "",
-      "url": "https://huggingface.co/blog/1_58_llm_extreme_quantization",
-      "published": "Wed, 18 Sep 2024 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-1434021912657125722",
-      "title": "Improving Hugging Face Training Efficiency Through Packing with Flash Attention 2",
-      "summary": "",
-      "url": "https://huggingface.co/blog/packing-with-FA2",
-      "published": "Wed, 21 Aug 2024 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-6451166615241292919",
-      "title": "LAVE: Zero-shot VQA Evaluation on Docmatix with LLMs - Do We Still Need Fine-Tuning?",
-      "summary": "",
-      "url": "https://huggingface.co/blog/zero-shot-vqa-docmatix",
-      "published": "Thu, 25 Jul 2024 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-7550041870350068340",
-      "title": "XLSCOUT Unveils ParaEmbed 2.0: a Powerful Embedding Model Tailored for Patents and IP with Expert Support from Hugging Face",
-      "summary": "",
-      "url": "https://huggingface.co/blog/xlscout-case-study",
-      "published": "Tue, 25 Jun 2024 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-7137647861118775226",
+      "title": "TripPattern: A Pattern-based Text Watermarking Method for Large Language Models",
+      "summary": "arXiv:2609.12472v1 Announce Type: new \nAbstract: Text watermarking techniques have gained significant attention for identifying machine-generated text and mitigating risks from large language models (LLMs). Existing methods typically divide an LLM's vocabulary into green and red tokens, but encouraging generation toward green tokens can reduce text quality and naturalness. To address this, we propose TripPattern, a watermarking framework that formulates text watermarking as a pattern-based match",
+      "url": "https://arxiv.org/abs/2609.12472",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -538,12 +912,12 @@
       ]
     },
     {
-      "id": "rss-4590781115305357512",
-      "title": "Introducing the Hugging Face Embedding Container for Amazon SageMaker",
-      "summary": "",
-      "url": "https://huggingface.co/blog/sagemaker-huggingface-embedding",
-      "published": "Fri, 07 Jun 2024 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-6012618404380760167",
+      "title": "What Drives Recovery in Agentic Text-to-Cypher? LAST-CQ: An LLM Agent Self-Refinement Framework",
+      "summary": "arXiv:2609.12746v1 Announce Type: new \nAbstract: Agentic pipelines for structured-query generation are rapidly expanding, but it is unclear which part of the loop produces the gain. We use LAST-CQ -- a five-agent, training-free, execution-grounded Text-to-Cypher framework -- as an instrumented testbed, running three counterfactuals over 2,471 live-database queries and six backbones spanning three vendor scale tiers. Removing correction is worth between 3.1% aggregate execution-BLEU against the s",
+      "url": "https://arxiv.org/abs/2609.12746",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "TECNOLOGIA",
       "tags": [
         "news",
@@ -551,12 +925,12 @@
       ]
     },
     {
-      "id": "rss-9155346941030475230",
-      "title": "The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare",
-      "summary": "",
-      "url": "https://huggingface.co/blog/leaderboard-medicalllm",
-      "published": "Fri, 19 Apr 2024 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-5598266913844199585",
+      "title": "Assisted Spatial Cognition Through Vision-Language Models",
+      "summary": "arXiv:2609.12747v1 Announce Type: new \nAbstract: Multimodal AI, powered by Large Language Models (LLMs) and Vision-Language Models (VLMs), is transforming assistive technologies by enabling simultaneous processing of visual and textual data. This advancement holds significant promise for over 43 million visually impaired and neuro-divergent individuals worldwide who face persistent challenges in navigating indoor and outdoor environments due to limited spatial awareness and insufficient environm",
+      "url": "https://arxiv.org/abs/2609.12747",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -564,25 +938,12 @@
       ]
     },
     {
-      "id": "rss-5484367463097925128",
-      "title": "Bringing serverless GPU inference to Hugging Face users",
-      "summary": "",
-      "url": "https://huggingface.co/blog/cloudflare-workers-ai",
-      "published": "Tue, 02 Apr 2024 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "INFRA",
-      "tags": [
-        "news",
-        "infra"
-      ]
-    },
-    {
-      "id": "rss-8306227866615308888",
-      "title": "Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models",
-      "summary": "",
-      "url": "https://huggingface.co/blog/cosmopedia",
-      "published": "Wed, 20 Mar 2024 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-6614384331487546245",
+      "title": "Scaling Clinical Judgment to Evaluate Medical AI",
+      "summary": "arXiv:2609.12822v1 Announce Type: new \nAbstract: Blinded physician evaluation has been considered by many to be the gold standard for assessing clinical reasoning in large language models (LLMs). This is difficult to scale; thus, prior studies typically rely on small physician panels, often from a single institution or specialty, which both limits the scientific questions investigated and makes it unclear whether findings would be reproduced with a different set of evaluators. To more rigorously",
+      "url": "https://arxiv.org/abs/2609.12822",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -590,12 +951,12 @@
       ]
     },
     {
-      "id": "rss-4763543628409240463",
-      "title": "Easily Train Models with H100 GPUs on NVIDIA DGX Cloud",
-      "summary": "",
-      "url": "https://huggingface.co/blog/train-dgx-cloud",
-      "published": "Mon, 18 Mar 2024 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-7520129644013824077",
+      "title": "EduFair-Bench: Evaluating Pedagogical Fairness of LLM Tutors Across Student Demographics",
+      "summary": "arXiv:2609.12949v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed as tutors, but it is unclear whether they support all students equally well. We introduce \\textbf{EduFair-Bench}, a benchmark for auditing the pedagogical fairness of LLM tutors---whether tutoring quality varies systematically with student demographics. EduFair-Bench pairs a multi-domain question bank (mathematics, physics, chemistry) with a controlled simulation in which a fixed LLM student i",
+      "url": "https://arxiv.org/abs/2609.12949",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -603,51 +964,12 @@
       ]
     },
     {
-      "id": "rss-3732596791582260932",
-      "title": "From OpenAI to Open LLMs with Messages API on Hugging Face",
-      "summary": "",
-      "url": "https://huggingface.co/blog/tgi-messages-api",
-      "published": "Thu, 08 Feb 2024 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-5481905525233492157",
-      "title": "Hugging Face Text Generation Inference available for AWS Inferentia2",
-      "summary": "",
-      "url": "https://huggingface.co/blog/text-generation-inference-on-inferentia2",
-      "published": "Thu, 01 Feb 2024 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-3770756669130863053",
-      "title": "Open-source LLMs as LangChain Agents",
-      "summary": "",
-      "url": "https://huggingface.co/blog/open-source-llms-as-agents",
-      "published": "Wed, 24 Jan 2024 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-7381999717277661038",
-      "title": "Deploy Embedding Models with Hugging Face Inference Endpoints",
-      "summary": "",
-      "url": "https://huggingface.co/blog/inference-endpoints-embeddings",
-      "published": "Tue, 24 Oct 2023 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-6463269099274821858",
+      "title": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
+      "summary": "arXiv:2609.13073v1 Announce Type: new \nAbstract: Recent breakthroughs in LLM-based systems and their abilities in problem solving and coding have allowed progress in the AI for Science paradigm, potentially replacing human roles in machine learning (ML) research. However, while several frameworks of fully autonomous end-to-end ML research have been proposed, successful implementations of them are often limited to problems with narrow search spaces, like language modeling or biomedical ML benchma",
+      "url": "https://arxiv.org/abs/2609.13073",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -655,51 +977,12 @@
       ]
     },
     {
-      "id": "rss-3493568923353919506",
-      "title": "Making LLMs lighter with AutoGPTQ and transformers",
-      "summary": "",
-      "url": "https://huggingface.co/blog/gptq-integration",
-      "published": "Wed, 23 Aug 2023 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-2021459737141183323",
-      "title": "Deploy LLMs with Hugging Face Inference Endpoints",
-      "summary": "",
-      "url": "https://huggingface.co/blog/inference-endpoints-llm",
-      "published": "Tue, 04 Jul 2023 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-1853968869595321051",
-      "title": "Leveraging Hugging Face for complex generative AI use cases",
-      "summary": "",
-      "url": "https://huggingface.co/blog/writer-case-study",
-      "published": "Sat, 01 Jul 2023 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-8202124326689599663",
-      "title": "Snorkel AI x Hugging Face: unlock foundation models for enterprises",
-      "summary": "",
-      "url": "https://huggingface.co/blog/snorkel-case-study",
-      "published": "Thu, 06 Apr 2023 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-8957991322336389262",
+      "title": "PRISMA-LLM: An Empirical Reporting Framework for AI-Assisted Systematic Reviews",
+      "summary": "arXiv:2609.11559v1 Announce Type: cross \nAbstract: Large language models (LLMs) and AI-enabled software increasingly participate in systematic-review decisions, yet the information needed to audit these workflows is reported inconsistently. We analyze SciLitBench, a corpus of 888 review-automation papers with 14,726 annotations, to characterize changes in methods, review-stage use, evaluation and reported limitations. Automation has shifted toward LLM- and software-facing workflows, including st",
+      "url": "https://arxiv.org/abs/2609.11559",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -707,12 +990,12 @@
       ]
     },
     {
-      "id": "rss-8238317878370091361",
-      "title": "Optimum+ONNX Runtime - Easier, Faster training for your Hugging Face models",
-      "summary": "",
-      "url": "https://huggingface.co/blog/optimum-onnxruntime-training",
-      "published": "Tue, 24 Jan 2023 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-1971112993849366282",
+      "title": "NDT Factory: Synthesizing Verified Network Digital Twins from Semantic Models via Multi-Agent LLM",
+      "summary": "arXiv:2609.12170v1 Announce Type: cross \nAbstract: Autonomous network management requires systems that can evaluate Network Service Intents (NSIs) under varying conditions without manual implementation of analysis logic, as envisioned in TM Forum Level~4 (L4) autonomy. Behavioral Network Digital Twins (NDTs) enable such evaluation, but existing NDTs rely on pre-defined analytical logic, limiting adaptability for evolving closed-loop control. This paper introduces the NDT factory, a multi-agent s",
+      "url": "https://arxiv.org/abs/2609.12170",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -720,77 +1003,12 @@
       ]
     },
     {
-      "id": "rss-7508225710485736189",
-      "title": "From GPT2 to Stable Diffusion: Hugging Face arrives to the Elixir community",
-      "summary": "",
-      "url": "https://huggingface.co/blog/elixir-bumblebee",
-      "published": "Fri, 09 Dec 2022 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-4075330931606717939",
-      "title": "Training Stable Diffusion with Dreambooth using Diffusers",
-      "summary": "",
-      "url": "https://huggingface.co/blog/dreambooth",
-      "published": "Mon, 07 Nov 2022 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-7583691691094972768",
-      "title": "From PyTorch DDP to Accelerate to Trainer, mastery of distributed training with ease",
-      "summary": "",
-      "url": "https://huggingface.co/blog/pytorch-ddp-accelerate-transformers",
-      "published": "Fri, 21 Oct 2022 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-5518937893875061920",
-      "title": "Pre-Train BERT with Hugging Face Transformers and Habana Gaudi",
-      "summary": "",
-      "url": "https://huggingface.co/blog/pretraining-bert",
-      "published": "Mon, 22 Aug 2022 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-1790895970978187669",
-      "title": "We Raised $100 Million for Open &amp; Collaborative Machine Learning 🚀",
-      "summary": "",
-      "url": "https://huggingface.co/blog/series-c",
-      "published": "Mon, 09 May 2022 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "MERCADO",
-      "tags": [
-        "news",
-        "mercado"
-      ]
-    },
-    {
-      "id": "rss-4450211126583720721",
-      "title": "Accelerate Large Model Training using PyTorch Fully Sharded Data Parallel",
-      "summary": "",
-      "url": "https://huggingface.co/blog/pytorch-fsdp",
-      "published": "Mon, 02 May 2022 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-602736433330183294",
+      "title": "Retrieval-Augmented Generation for Scientific Code Understanding",
+      "summary": "arXiv:2609.12190v1 Announce Type: cross \nAbstract: Large language models have become central to modern coding assistants, but state-of-the-art systems such as Claude Code or Codex rely on very large, cloud-hosted models with significant computational cost and data-privacy implications. This work investigates whether a useful, fully local coding agent can be built around small open-source models by shifting the computational burden away from inference. We develop a Retrieval-Augmented Generation ",
+      "url": "https://arxiv.org/abs/2609.12190",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -798,25 +1016,12 @@
       ]
     },
     {
-      "id": "rss-2675490945634242514",
-      "title": "Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia",
-      "summary": "",
-      "url": "https://huggingface.co/blog/bert-inferentia-sagemaker",
-      "published": "Wed, 16 Mar 2022 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-1292489614864921321",
-      "title": "Train a Sentence Embedding Model with 1B Training Pairs",
-      "summary": "",
-      "url": "https://huggingface.co/blog/1b-sentence-embeddings",
-      "published": "Mon, 25 Oct 2021 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-2520703974090744480",
+      "title": "Repair Before Reinforce: Context-Augmented Knowledge Graph Reasoning for Multi-Hop Question Answering",
+      "summary": "arXiv:2609.12230v1 Announce Type: cross \nAbstract: Question-answering often requires reasoning across multiple connected facts rather than retrieving a single isolated relation. Knowledge graphs (KGs) provide a structured way to represent such facts, but training large language models (LLMs) only on isolated KG head-relation-tail triples may limit their ability to learn the surrounding context needed for multi-hop reasoning. In this work, we propose a context-augmented training framework for mul",
+      "url": "https://arxiv.org/abs/2609.12230",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
@@ -824,224 +1029,16 @@
       ]
     },
     {
-      "id": "rss-5220217779583531365",
-      "title": "Deep Learning over the Internet: Training Language Models Collaboratively",
-      "summary": "",
-      "url": "https://huggingface.co/blog/collaborative-training",
-      "published": "Thu, 15 Jul 2021 00:00:00 GMT",
-      "source": "Hugging Face",
+      "id": "rss-1737474503698247166",
+      "title": "HypoKG: Evidence-Disciplined Biomedical Hypothesis Generation Beyond Endpoint Knowledge",
+      "summary": "arXiv:2609.12260v1 Announce Type: cross \nAbstract: Large language models (LLMs) can generate biomedical hypotheses, but it remains unclear whether they truly reason from scientific evidence or simply produce convincing-sounding ideas. To study this, we combine three major biological databases: the Kyoto Encyclopedia of Genes and Genomes (KEGG), Rhea, and UniProt, into a unified biochemical knowledge graph and construct a benchmark of 550 paths connecting enzyme sources to rare disease endpoints,",
+      "url": "https://arxiv.org/abs/2609.12260",
+      "published": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source": "arXiv cs.AI",
       "category": "PESQUISA",
       "tags": [
         "news",
         "pesquisa"
-      ]
-    },
-    {
-      "id": "rss-1281438094527439540",
-      "title": "Distributed Training: Train BART/T5 for Summarization using 🤗 Transformers and Amazon SageMaker",
-      "summary": "",
-      "url": "https://huggingface.co/blog/sagemaker-distributed-training-seq2seq",
-      "published": "Thu, 08 Apr 2021 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "TECNOLOGIA",
-      "tags": [
-        "news",
-        "tecnologia"
-      ]
-    },
-    {
-      "id": "rss-803240653448883695",
-      "title": "Faster TensorFlow models in Hugging Face Transformers",
-      "summary": "",
-      "url": "https://huggingface.co/blog/tf-serving",
-      "published": "Tue, 26 Jan 2021 00:00:00 GMT",
-      "source": "Hugging Face",
-      "category": "PESQUISA",
-      "tags": [
-        "news",
-        "pesquisa"
-      ]
-    },
-    {
-      "id": "rss-1688322320344931669",
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "published": "Mon, 13 Jul 2026 12:37:28 +0000",
-      "source": "DeepMind",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-633212387933207423",
-      "title": "Investing in multi-agent AI safety research",
-      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "published": "Wed, 10 Jun 2026 10:21:19 +0000",
-      "source": "DeepMind",
-      "category": "MERCADO",
-      "tags": [
-        "news",
-        "mercado"
-      ]
-    },
-    {
-      "id": "rss-362384717932579997",
-      "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
-      "summary": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.",
-      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
-      "published": "Tue, 12 May 2026 14:40:07 +0000",
-      "source": "DeepMind",
-      "category": "PESQUISA",
-      "tags": [
-        "news",
-        "pesquisa"
-      ]
-    },
-    {
-      "id": "rss-802841716075193030",
-      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-      "published": "Mon, 13 Apr 2026 15:52:13 +0000",
-      "source": "DeepMind",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-9076529619242706046",
-      "title": "SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds",
-      "summary": "Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments.",
-      "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
-      "published": "Thu, 13 Nov 2025 14:52:18 +0000",
-      "source": "DeepMind",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-2785802173603486894",
-      "title": "How AI is giving Northern Ireland teachers time back",
-      "summary": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week.",
-      "url": "https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/",
-      "published": "Mon, 10 Nov 2025 16:50:39 +0000",
-      "source": "DeepMind",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-8005915253465697017",
-      "title": "Gemini 2.5 Flash-Lite is now ready for scaled production use",
-      "summary": "Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model provides high quality in a small size, and includes 2.5 family features like a 1 million-token context window and multimodality.",
-      "url": "https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/",
-      "published": "Sat, 25 Oct 2025 17:34:32 +0000",
-      "source": "DeepMind",
-      "category": "PESQUISA",
-      "tags": [
-        "news",
-        "pesquisa"
-      ]
-    },
-    {
-      "id": "rss-7939635775922826758",
-      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-      "summary": "",
-      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-      "published": "Fri, 11 Sep 2026 22:58:17 +0000",
-      "source": "TechCrunch",
-      "category": "MERCADO",
-      "tags": [
-        "news",
-        "mercado"
-      ]
-    },
-    {
-      "id": "rss-2769919519325615573",
-      "title": "3 ways to prep for your next big race with Search",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\"&gt;Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-      "published": "Thu, 10 Sep 2026 16:00:00 +0000",
-      "source": "Google AI",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-5762551654872772193",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\"&gt;The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "published": "Wed, 02 Sep 2026 15:40:00 +0000",
-      "source": "Google AI",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-6004310457898133810",
-      "title": "Get closer to the game with Gemini and Pixel",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\"&gt;Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "published": "Mon, 17 Aug 2026 08:00:00 +0000",
-      "source": "Google AI",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-1915142205486814002",
-      "title": "Evolve your marketing with new AI tools",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp\"&gt;Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
-      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "published": "Mon, 10 Aug 2026 14:30:00 +0000",
-      "source": "Google AI",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-6428897022352868386",
-      "title": "Inside our 353,000-person vibe coding course",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp\"&gt;Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "published": "Mon, 03 Aug 2026 15:00:00 +0000",
-      "source": "Google AI",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
-      ]
-    },
-    {
-      "id": "rss-1293134799744500236",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\"&gt;We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "published": "Tue, 28 Jul 2026 16:00:00 +0000",
-      "source": "Google AI",
-      "category": "PRODUTOS",
-      "tags": [
-        "news",
-        "produtos"
       ]
     }
   ]
