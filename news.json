@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T09:32:27.223833-03:00",
+  "updated_at": "2026-09-19T11:36:29.944795-03:00",
   "items": [
     {
-      "id": "rss-6661482385430590659",
+      "id": "rss-4490408144810291537",
       "title": "Training and Finetuning Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
@@ -15,35 +15,7 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2609.20814v1",
-      "title": "How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?",
-      "summary": "Pretraining a neural PDE surrogate can reduce the amount of new CFD data needed when geometry or modeled physics changes. However, it remains unclear how different components of distribution shift affect this benefit. We pretrain a surrogate on 254,909 RANS solutions from one airfoil family and fine-tune it on a new family under two target settings with matched freestream ranges: the same Spalart-Allmaras (SA) modeling and SA with added $e^N$ transition modeling. At $N=1000$, the pretrained mode…",
-      "url": "http://arxiv.org/abs/2609.20814v1",
-      "published": "2026-09-17T17:59:24Z",
-      "source": "arXiv",
-      "category": "physics.comp-ph",
-      "tags": [
-        "research",
-        "paper",
-        "physics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.20807v1",
-      "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
-      "summary": "Reinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference engines, often referred to as the training-inference mismatch (TIM). However, completely eliminating TIM is impractical, as it would come at a major cost to rollout efficiency. In this paper, we show that the instability of RL under TIM is primarily caused by drift: a persistent bias between training and inference engines that accumulates with every training step. We …",
-      "url": "http://arxiv.org/abs/2609.20807v1",
-      "published": "2026-09-17T17:58:17Z",
-      "source": "arXiv",
-      "category": "cs.LG",
-      "tags": [
-        "research",
-        "paper",
-        "cs"
-      ]
-    },
-    {
-      "id": "rss-3693171541717795903",
+      "id": "rss-1628976649899311257",
       "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-multi-vector-encoder",
@@ -56,7 +28,7 @@
       ]
     },
     {
-      "id": "rss-6294846647457817688",
+      "id": "rss-3408440961361249517",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "summary": "",
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
@@ -69,7 +41,7 @@
       ]
     },
     {
-      "id": "rss-490694886075164483",
+      "id": "rss-5846985848499661046",
       "title": "Building Blocks for Foundation Model Training and Inference on AWS",
       "summary": "",
       "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
@@ -82,7 +54,7 @@
       ]
     },
     {
-      "id": "rss-3066873779344757812",
+      "id": "rss-718506550667475395",
       "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
       "summary": "",
       "url": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
@@ -95,7 +67,7 @@
       ]
     },
     {
-      "id": "rss-6164027740552879407",
+      "id": "rss-1277346699710914680",
       "title": "Jupyter Agents: training LLMs to reason with notebooks",
       "summary": "",
       "url": "https://huggingface.co/blog/jupyter-agent-2",
@@ -108,7 +80,7 @@
       ]
     },
     {
-      "id": "rss-4653159278278887349",
+      "id": "rss-3764276518176766906",
       "title": "Training and Finetuning Sparse Embedding Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-sparse-encoder",
@@ -121,7 +93,7 @@
       ]
     },
     {
-      "id": "rss-5215024425725661148",
+      "id": "rss-6199580480039280398",
       "title": "Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard",
       "summary": "",
       "url": "https://huggingface.co/blog/leaderboard-3c3h-aragen",
@@ -134,7 +106,7 @@
       ]
     },
     {
-      "id": "rss-8774184148948541710",
+      "id": "rss-8773714339392722961",
       "title": "Our Transformers Code Agent beats the GAIA benchmark 🏅",
       "summary": "",
       "url": "https://huggingface.co/blog/beating-gaia",
@@ -147,7 +119,7 @@
       ]
     },
     {
-      "id": "rss-4691655829982700622",
+      "id": "rss-7561526451870473553",
       "title": "Training and Finetuning Embedding Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-sentence-transformers",
@@ -160,7 +132,7 @@
       ]
     },
     {
-      "id": "rss-1811141256744254090",
+      "id": "rss-6707197641211254005",
       "title": "Introducing the Hugging Face LLM Inference Container for Amazon SageMaker",
       "summary": "",
       "url": "https://huggingface.co/blog/sagemaker-huggingface-llm",
@@ -173,7 +145,7 @@
       ]
     },
     {
-      "id": "rss-4547779086763543853",
+      "id": "rss-6690833784679825112",
       "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
       "summary": "",
       "url": "https://huggingface.co/blog/tf_tpu",
@@ -186,7 +158,7 @@
       ]
     },
     {
-      "id": "rss-3685482682510764170",
+      "id": "rss-1103940739885077833",
       "title": "Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large Language Models",
       "summary": "",
       "url": "https://huggingface.co/blog/databricks-case-study",
@@ -199,7 +171,7 @@
       ]
     },
     {
-      "id": "rss-7690301377675110569",
+      "id": "rss-1940292116340661047",
       "title": "Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU",
       "summary": "",
       "url": "https://huggingface.co/blog/trl-peft",
@@ -212,7 +184,7 @@
       ]
     },
     {
-      "id": "rss-5951159341288795793",
+      "id": "rss-9148820196848620704",
       "title": "Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB",
       "summary": "",
       "url": "https://huggingface.co/blog/habana-gaudi-2-benchmark",
@@ -225,7 +197,7 @@
       ]
     },
     {
-      "id": "rss-8769267659701190288",
+      "id": "rss-9068660226043937007",
       "title": "Habana Labs and Hugging Face Partner to Accelerate Transformer Model Training",
       "summary": "",
       "url": "https://huggingface.co/blog/habana",
@@ -238,7 +210,7 @@
       ]
     },
     {
-      "id": "rss-7101768416753751181",
+      "id": "rss-5951181487867566969",
       "title": "Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker",
       "summary": "",
       "url": "https://huggingface.co/blog/gptj-sagemaker",
@@ -251,7 +223,7 @@
       ]
     },
     {
-      "id": "rss-8985352599217549513",
+      "id": "rss-9188346152293528913",
       "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
       "summary": "",
       "url": "https://huggingface.co/blog/skypilot-hf-storage",
@@ -264,7 +236,7 @@
       ]
     },
     {
-      "id": "rss-2311085936429457190",
+      "id": "rss-5318717753562759281",
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
       "summary": "",
       "url": "https://huggingface.co/blog/ibm-research/scarfbench",
@@ -277,7 +249,7 @@
       ]
     },
     {
-      "id": "rss-8604810697451017725",
+      "id": "rss-8812123075246070854",
       "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "summary": "",
       "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
@@ -290,7 +262,7 @@
       ]
     },
     {
-      "id": "rss-2724136662885410988",
+      "id": "rss-7394536883723843230",
       "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
       "summary": "",
       "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
@@ -303,7 +275,7 @@
       ]
     },
     {
-      "id": "rss-6039046062985080016",
+      "id": "rss-1267697407466854470",
       "title": "Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
@@ -316,7 +288,7 @@
       ]
     },
     {
-      "id": "rss-4419373122000718113",
+      "id": "rss-5925069587811019278",
       "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
       "summary": "",
       "url": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
@@ -329,7 +301,7 @@
       ]
     },
     {
-      "id": "rss-1654133865102302595",
+      "id": "rss-5063018606439618250",
       "title": "CUGA on Hugging Face: Democratizing Configurable AI Agents",
       "summary": "",
       "url": "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
@@ -342,7 +314,7 @@
       ]
     },
     {
-      "id": "rss-1181766407721381951",
+      "id": "rss-2723108653764945038",
       "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
       "summary": "",
       "url": "https://huggingface.co/blog/smol2operator",
@@ -355,7 +327,7 @@
       ]
     },
     {
-      "id": "rss-6513335288385913048",
+      "id": "rss-8903989154506373826",
       "title": "Public AI on Hugging Face Inference Providers 🔥",
       "summary": "",
       "url": "https://huggingface.co/blog/inference-providers-publicai",
@@ -368,7 +340,7 @@
       ]
     },
     {
-      "id": "rss-2556949433995647547",
+      "id": "rss-4981998643051315973",
       "title": "Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/faster-transformers",
@@ -381,7 +353,7 @@
       ]
     },
     {
-      "id": "rss-6925439813043525043",
+      "id": "rss-41537224695256338",
       "title": "Fine-tune Any LLM from the Hugging Face Hub with Together AI",
       "summary": "",
       "url": "https://huggingface.co/blog/togethercomputer/together-ft",
@@ -394,7 +366,7 @@
       ]
     },
     {
-      "id": "rss-9146039249565259980",
+      "id": "rss-5263075334593498009",
       "title": "Accelerate ND-Parallel: A guide to Efficient Multi-GPU Training",
       "summary": "",
       "url": "https://huggingface.co/blog/accelerate-nd-parallel",
@@ -407,7 +379,7 @@
       ]
     },
     {
-      "id": "rss-287084755443715019",
+      "id": "rss-7481161689003627551",
       "title": "Announcing  NeurIPS 2025 E2LM Competition: Early Training Evaluation of Language Models",
       "summary": "",
       "url": "https://huggingface.co/blog/tiiuae/e2lm-competition",
@@ -420,7 +392,7 @@
       ]
     },
     {
-      "id": "rss-4500932055534230601",
+      "id": "rss-7220775090852007044",
       "title": "Featherless AI on Hugging Face Inference Providers 🔥",
       "summary": "",
       "url": "https://huggingface.co/blog/inference-providers-featherless",
@@ -433,7 +405,7 @@
       ]
     },
     {
-      "id": "rss-4068703349121879503",
+      "id": "rss-2632760169129078474",
       "title": "Training and Finetuning Reranker Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/train-reranker",
@@ -446,7 +418,7 @@
       ]
     },
     {
-      "id": "rss-2245767365808936427",
+      "id": "rss-5923328220698221364",
       "title": "Hugging Face and FriendliAI partner to supercharge model deployment on the Hub",
       "summary": "",
       "url": "https://huggingface.co/blog/friendliai-partnership",
@@ -459,7 +431,7 @@
       ]
     },
     {
-      "id": "rss-3841669902709367953",
+      "id": "rss-5069010497818769403",
       "title": "Train 400x faster Static Embedding Models with Sentence Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/static-embeddings",
@@ -472,7 +444,7 @@
       ]
     },
     {
-      "id": "rss-4065189410924222295",
+      "id": "rss-7617809014907452639",
       "title": "Fine-tuning LLMs to 1.58bit: extreme quantization made easy",
       "summary": "",
       "url": "https://huggingface.co/blog/1_58_llm_extreme_quantization",
@@ -485,7 +457,7 @@
       ]
     },
     {
-      "id": "rss-55083233497505531",
+      "id": "rss-1233534508637137722",
       "title": "Improving Hugging Face Training Efficiency Through Packing with Flash Attention 2",
       "summary": "",
       "url": "https://huggingface.co/blog/packing-with-FA2",
@@ -498,7 +470,7 @@
       ]
     },
     {
-      "id": "rss-2589985881616446969",
+      "id": "rss-6475557812833034327",
       "title": "LAVE: Zero-shot VQA Evaluation on Docmatix with LLMs - Do We Still Need Fine-Tuning?",
       "summary": "",
       "url": "https://huggingface.co/blog/zero-shot-vqa-docmatix",
@@ -511,7 +483,7 @@
       ]
     },
     {
-      "id": "rss-2611696930903457061",
+      "id": "rss-5697148054559258762",
       "title": "XLSCOUT Unveils ParaEmbed 2.0: a Powerful Embedding Model Tailored for Patents and IP with Expert Support from Hugging Face",
       "summary": "",
       "url": "https://huggingface.co/blog/xlscout-case-study",
@@ -524,7 +496,7 @@
       ]
     },
     {
-      "id": "rss-5950973237249866663",
+      "id": "rss-472956898151083668",
       "title": "Introducing the Hugging Face Embedding Container for Amazon SageMaker",
       "summary": "",
       "url": "https://huggingface.co/blog/sagemaker-huggingface-embedding",
@@ -537,7 +509,7 @@
       ]
     },
     {
-      "id": "rss-7486404491033440221",
+      "id": "rss-3709647847102164592",
       "title": "The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare",
       "summary": "",
       "url": "https://huggingface.co/blog/leaderboard-medicalllm",
@@ -550,7 +522,7 @@
       ]
     },
     {
-      "id": "rss-6728614755677000985",
+      "id": "rss-1029196192777570025",
       "title": "Bringing serverless GPU inference to Hugging Face users",
       "summary": "",
       "url": "https://huggingface.co/blog/cloudflare-workers-ai",
@@ -563,7 +535,7 @@
       ]
     },
     {
-      "id": "rss-2398004202137971049",
+      "id": "rss-3275094037050769339",
       "title": "Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models",
       "summary": "",
       "url": "https://huggingface.co/blog/cosmopedia",
@@ -576,7 +548,7 @@
       ]
     },
     {
-      "id": "rss-7942778892351551155",
+      "id": "rss-5993165868580006949",
       "title": "Easily Train Models with H100 GPUs on NVIDIA DGX Cloud",
       "summary": "",
       "url": "https://huggingface.co/blog/train-dgx-cloud",
@@ -589,7 +561,7 @@
       ]
     },
     {
-      "id": "rss-6065385814077289133",
+      "id": "rss-1986122730031526698",
       "title": "From OpenAI to Open LLMs with Messages API on Hugging Face",
       "summary": "",
       "url": "https://huggingface.co/blog/tgi-messages-api",
@@ -602,7 +574,7 @@
       ]
     },
     {
-      "id": "rss-2181768399547427126",
+      "id": "rss-7464132574278703193",
       "title": "Hugging Face Text Generation Inference available for AWS Inferentia2",
       "summary": "",
       "url": "https://huggingface.co/blog/text-generation-inference-on-inferentia2",
@@ -615,7 +587,7 @@
       ]
     },
     {
-      "id": "rss-4549187613071594380",
+      "id": "rss-2243467291579901213",
       "title": "Open-source LLMs as LangChain Agents",
       "summary": "",
       "url": "https://huggingface.co/blog/open-source-llms-as-agents",
@@ -628,7 +600,7 @@
       ]
     },
     {
-      "id": "rss-1715923690431856903",
+      "id": "rss-8918918274029845007",
       "title": "Deploy Embedding Models with Hugging Face Inference Endpoints",
       "summary": "",
       "url": "https://huggingface.co/blog/inference-endpoints-embeddings",
@@ -641,7 +613,7 @@
       ]
     },
     {
-      "id": "rss-4311491121594810171",
+      "id": "rss-4350835526308746487",
       "title": "Making LLMs lighter with AutoGPTQ and transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/gptq-integration",
@@ -654,7 +626,7 @@
       ]
     },
     {
-      "id": "rss-6309370860951197555",
+      "id": "rss-2481994284208529967",
       "title": "Deploy LLMs with Hugging Face Inference Endpoints",
       "summary": "",
       "url": "https://huggingface.co/blog/inference-endpoints-llm",
@@ -667,7 +639,7 @@
       ]
     },
     {
-      "id": "rss-6843522210845831669",
+      "id": "rss-1028205606597785247",
       "title": "Leveraging Hugging Face for complex generative AI use cases",
       "summary": "",
       "url": "https://huggingface.co/blog/writer-case-study",
@@ -680,7 +652,7 @@
       ]
     },
     {
-      "id": "rss-5071429681794678942",
+      "id": "rss-1218917946535038047",
       "title": "Snorkel AI x Hugging Face: unlock foundation models for enterprises",
       "summary": "",
       "url": "https://huggingface.co/blog/snorkel-case-study",
@@ -693,7 +665,7 @@
       ]
     },
     {
-      "id": "rss-6722759052823721990",
+      "id": "rss-983060488283376556",
       "title": "Optimum+ONNX Runtime - Easier, Faster training for your Hugging Face models",
       "summary": "",
       "url": "https://huggingface.co/blog/optimum-onnxruntime-training",
@@ -706,7 +678,7 @@
       ]
     },
     {
-      "id": "rss-7898473883445487304",
+      "id": "rss-251014649526579182",
       "title": "From GPT2 to Stable Diffusion: Hugging Face arrives to the Elixir community",
       "summary": "",
       "url": "https://huggingface.co/blog/elixir-bumblebee",
@@ -719,7 +691,7 @@
       ]
     },
     {
-      "id": "rss-5819523743139015284",
+      "id": "rss-4004983757458810580",
       "title": "Training Stable Diffusion with Dreambooth using Diffusers",
       "summary": "",
       "url": "https://huggingface.co/blog/dreambooth",
@@ -732,7 +704,7 @@
       ]
     },
     {
-      "id": "rss-6756970727236337319",
+      "id": "rss-6671636455986318233",
       "title": "From PyTorch DDP to Accelerate to Trainer, mastery of distributed training with ease",
       "summary": "",
       "url": "https://huggingface.co/blog/pytorch-ddp-accelerate-transformers",
@@ -745,7 +717,7 @@
       ]
     },
     {
-      "id": "rss-6205424280457498911",
+      "id": "rss-8448640000985935879",
       "title": "Pre-Train BERT with Hugging Face Transformers and Habana Gaudi",
       "summary": "",
       "url": "https://huggingface.co/blog/pretraining-bert",
@@ -758,7 +730,7 @@
       ]
     },
     {
-      "id": "rss-2699156277849600279",
+      "id": "rss-6459400745818218155",
       "title": "We Raised $100 Million for Open &amp; Collaborative Machine Learning 🚀",
       "summary": "",
       "url": "https://huggingface.co/blog/series-c",
@@ -771,7 +743,7 @@
       ]
     },
     {
-      "id": "rss-9142946620035873894",
+      "id": "rss-7142891338192027922",
       "title": "Accelerate Large Model Training using PyTorch Fully Sharded Data Parallel",
       "summary": "",
       "url": "https://huggingface.co/blog/pytorch-fsdp",
@@ -784,7 +756,7 @@
       ]
     },
     {
-      "id": "rss-907954806316252480",
+      "id": "rss-3836820296344549829",
       "title": "Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia",
       "summary": "",
       "url": "https://huggingface.co/blog/bert-inferentia-sagemaker",
@@ -797,7 +769,7 @@
       ]
     },
     {
-      "id": "rss-6332022544494433611",
+      "id": "rss-4221115539164013184",
       "title": "Train a Sentence Embedding Model with 1B Training Pairs",
       "summary": "",
       "url": "https://huggingface.co/blog/1b-sentence-embeddings",
@@ -810,7 +782,7 @@
       ]
     },
     {
-      "id": "rss-2930867264511102195",
+      "id": "rss-8286718340110305663",
       "title": "Deep Learning over the Internet: Training Language Models Collaboratively",
       "summary": "",
       "url": "https://huggingface.co/blog/collaborative-training",
@@ -823,7 +795,7 @@
       ]
     },
     {
-      "id": "rss-322598133079637459",
+      "id": "rss-7899035601704022364",
       "title": "Distributed Training: Train BART/T5 for Summarization using 🤗 Transformers and Amazon SageMaker",
       "summary": "",
       "url": "https://huggingface.co/blog/sagemaker-distributed-training-seq2seq",
@@ -836,7 +808,7 @@
       ]
     },
     {
-      "id": "rss-8425263487907686778",
+      "id": "rss-2225663633466092142",
       "title": "Faster TensorFlow models in Hugging Face Transformers",
       "summary": "",
       "url": "https://huggingface.co/blog/tf-serving",
@@ -849,7 +821,7 @@
       ]
     },
     {
-      "id": "rss-221301044467207051",
+      "id": "rss-1714190922681547900",
       "title": "Empowering India’s next generation of innovators with ATL Saathi",
       "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
@@ -862,7 +834,7 @@
       ]
     },
     {
-      "id": "rss-8004271190797035442",
+      "id": "rss-9220653031733189949",
       "title": "Investing in multi-agent AI safety research",
       "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
       "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
@@ -875,7 +847,7 @@
       ]
     },
     {
-      "id": "rss-3254962227046170645",
+      "id": "rss-5428175255651430213",
       "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
       "summary": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.",
       "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
@@ -888,7 +860,7 @@
       ]
     },
     {
-      "id": "rss-5978638697025476601",
+      "id": "rss-4833178401463800720",
       "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
       "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
       "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
@@ -901,7 +873,7 @@
       ]
     },
     {
-      "id": "rss-4059861287481706759",
+      "id": "rss-3228465661564642464",
       "title": "SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds",
       "summary": "Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments.",
       "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
@@ -914,7 +886,7 @@
       ]
     },
     {
-      "id": "rss-2850789782211685757",
+      "id": "rss-4611897720876882719",
       "title": "How AI is giving Northern Ireland teachers time back",
       "summary": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week.",
       "url": "https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/",
@@ -927,7 +899,7 @@
       ]
     },
     {
-      "id": "rss-644710095482239119",
+      "id": "rss-7843223841246220897",
       "title": "Gemini 2.5 Flash-Lite is now ready for scaled production use",
       "summary": "Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model provides high quality in a small size, and includes 2.5 family features like a 1 million-token context window and multimodality.",
       "url": "https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/",
@@ -940,7 +912,7 @@
       ]
     },
     {
-      "id": "rss-5756240816556970545",
+      "id": "rss-5779124311109314772",
       "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
       "summary": "",
       "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
@@ -953,7 +925,7 @@
       ]
     },
     {
-      "id": "rss-670869703613264304",
+      "id": "rss-7914474927871671129",
       "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
       "summary": "",
       "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
@@ -966,7 +938,7 @@
       ]
     },
     {
-      "id": "rss-4500320211928047602",
+      "id": "rss-2606123019220486120",
       "title": "DevFest is back",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\"&gt;DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
@@ -979,7 +951,7 @@
       ]
     },
     {
-      "id": "rss-8907341748692830281",
+      "id": "rss-8251466866147919455",
       "title": "3 ways to prep for your next big race with Search",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\"&gt;Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
       "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
@@ -992,7 +964,7 @@
       ]
     },
     {
-      "id": "rss-4596760996125289948",
+      "id": "rss-6258496884803265526",
       "title": "Proactive cyber defense for governments and enterprises",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\"&gt;The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
@@ -1005,7 +977,7 @@
       ]
     },
     {
-      "id": "rss-5631305812928319532",
+      "id": "rss-5622782498894431189",
       "title": "Get closer to the game with Gemini and Pixel",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\"&gt;Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
@@ -1018,7 +990,35 @@
       ]
     },
     {
-      "id": "rss-7472819842228103722",
+      "id": "http://arxiv.org/abs/2609.20804v1",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluate…",
+      "url": "http://arxiv.org/abs/2609.20804v1",
+      "published": "2026-09-17T17:58:07Z",
+      "source": "arXiv",
+      "category": "cs.AI",
+      "tags": [
+        "research",
+        "paper",
+        "cs"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.20784v1",
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them. This recipe, however, is undermined by two findings in agentic tasks: privileged information alone does not always make a teacher reliable, and the benefit of teacher supervision is stage-dependent. We theref…",
+      "url": "http://arxiv.org/abs/2609.20784v1",
+      "published": "2026-09-17T17:52:08Z",
+      "source": "arXiv",
+      "category": "cs.CL",
+      "tags": [
+        "research",
+        "paper",
+        "cs"
+      ]
+    },
+    {
+      "id": "rss-4569124185626674851",
       "title": "Your Agent Aced the Task. Will It Do It Again?",
       "summary": "",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
@@ -1031,7 +1031,7 @@
       ]
     },
     {
-      "id": "rss-5280263583757853024",
+      "id": "rss-4580430465113356893",
       "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
       "summary": "",
       "url": "https://huggingface.co/blog/train-to-paint-with-code",
